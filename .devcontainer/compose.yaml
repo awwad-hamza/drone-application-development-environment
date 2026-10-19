@@ -1,0 +1,14 @@
+
+services:
+  x650-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    network_mode: host
+    init: true
+    stdin_open: true
+    tty: true
+    volumes:
+      - ..:/workspaces/x650-autonomy
+    working_dir: /workspaces/x650-autonomy
+    command: sleep infinity

@@ -1,0 +1,17 @@
+
+{
+  "name": "X650 ROS 2 Humble",
+  "dockerComposeFile": "compose.yaml",
+  "service": "x650-dev",
+  "workspaceFolder": "/workspaces/x650-autonomy",
+  "shutdownAction": "stopCompose",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-iot.vscode-ros",
+        "ms-python.python",
+        "ms-vscode.cpptools"
+      ]
+    }
+  }
+}

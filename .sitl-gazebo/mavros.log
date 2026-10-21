@@ -1,0 +1,620 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-10-21-15-45-52-088410-strix-2998
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [mavros_node-1]: process started with pid [3067]
+[mavros_node-1] [INFO] [1792597552.219780746] [mavros_node]: Starting mavros_node container
+[mavros_node-1] [INFO] [1792597552.219952776] [mavros_node]: FCU URL: tcp://127.0.0.1:5760
+[mavros_node-1] [INFO] [1792597552.219959238] [mavros_node]: GCS URL: 
+[mavros_node-1] [INFO] [1792597552.219963716] [mavros_node]: UAS Prefix: /uas1
+[mavros_node-1] [INFO] [1792597552.219968916] [mavros_node]: Starting mavros router node
+[mavros_node-1] [INFO] [1792597552.226845094] [mavros_router]: Built-in SIMD instructions: SSE, SSE2
+[mavros_node-1] [INFO] [1792597552.226886261] [mavros_router]: Built-in MAVLink package version: 2026.9.9
+[mavros_node-1] [INFO] [1792597552.226898413] [mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all csAirLink cubepilot development icarous loweheiser marsh paparazzi standard stemstudios storm32 uAvionix
+[mavros_node-1] [INFO] [1792597552.226903943] [mavros_router]: MAVROS Router started
+[mavros_node-1] [INFO] [1792597552.227063230] [mavros_node]: Starting mavros uas node
+[mavros_node-1] [INFO] [1792597552.266538910] [mavros_router]: Requested to add endpoint: type: 0, url: tcp://127.0.0.1:5760
+[mavros_node-1] [INFO] [1792597552.266598301] [mavros_router]: Endpoint link[1000] created
+[mavros_node-1] [INFO] [1792597552.266911503] [mavros_router]: link[1000] opened successfully
+[mavros_node-1] [INFO] [1792597552.266931921] [mavros_router]: Requested to add endpoint: type: 2, url: /uas1
+[mavros_node-1] [INFO] [1792597552.266947540] [mavros_router]: Endpoint link[1001] created
+[mavros_node-1] [INFO] [1792597552.269148059] [mavros_router]: link[1001] opened successfully
+[mavros_node-1] [INFO] [1792597552.276706626] [mavros]: UAS Executor started, threads: 4
+[mavros_node-1] [WARN] [1792597552.276727304] [mavros]: plugin_denylist pattern 'image_pub' does not match any declared plugin
+[mavros_node-1] [WARN] [1792597552.276955458] [mavros]: plugin_denylist pattern 'vision_speed_estimate' does not match any declared plugin
+[mavros_node-1] [INFO] [1792597552.276982669] [mavros]: Plugin actuator_control ignored
+[mavros_node-1] [INFO] [1792597552.295897430] [mavros]: Plugin adsb created
+[mavros_node-1] [INFO] [1792597552.295952112] [mavros]: Plugin adsb initialized
+[mavros_node-1] [INFO] [1792597552.295963893] [mavros]: Plugin altitude ignored
+[mavros_node-1] [INFO] [1792597552.302924308] [mavros]: Plugin cam_imu_sync created
+[mavros_node-1] [INFO] [1792597552.302974672] [mavros]: Plugin cam_imu_sync initialized
+[mavros_node-1] [INFO] [1792597552.310437070] [mavros]: Plugin camera created
+[mavros_node-1] [INFO] [1792597552.310497603] [mavros]: Plugin camera initialized
+[mavros_node-1] [INFO] [1792597552.319081234] [mavros]: Plugin cellular_status created
+[mavros_node-1] [INFO] [1792597552.319139793] [mavros]: Plugin cellular_status initialized
+[mavros_node-1] [INFO] [1792597552.338784290] [mavros]: Plugin command created
+[mavros_node-1] [INFO] [1792597552.338840835] [mavros]: Plugin command initialized
+[mavros_node-1] [INFO] [1792597552.344392232] [mavros]: Plugin companion_process_status created
+[mavros_node-1] [INFO] [1792597552.344438658] [mavros]: Plugin companion_process_status initialized
+[mavros_node-1] [INFO] [1792597552.344450971] [mavros]: Plugin debug_value ignored
+[mavros_node-1] [INFO] [1792597552.350360102] [mavros.distance_sensor]: DS: rangefinder_pub: Loading config: id: 0
+[mavros_node-1] frame_id: lidar
+[mavros_node-1] field_of_view: 0.0
+[mavros_node-1] send_tf: false
+[mavros_node-1] sensor_position: {x: 0.0, y: 0.0, z: -0.1}
+[mavros_node-1] [INFO] [1792597552.351416235] [mavros.distance_sensor]: DS: rangefinder_sub: Loading config: subscriber: true
+[mavros_node-1] id: 1
+[mavros_node-1] orientation: PITCH_270
+[mavros_node-1] [INFO] [1792597552.352055694] [mavros]: Plugin distance_sensor created
+[mavros_node-1] [INFO] [1792597552.352124391] [mavros]: Plugin distance_sensor initialized
+[mavros_node-1] [INFO] [1792597552.358370198] [mavros]: Plugin esc_status created
+[mavros_node-1] [INFO] [1792597552.358419139] [mavros]: Plugin esc_status initialized
+[mavros_node-1] [INFO] [1792597552.363996184] [mavros]: Plugin esc_telemetry created
+[mavros_node-1] [INFO] [1792597552.364040796] [mavros]: Plugin esc_telemetry initialized
+[mavros_node-1] [INFO] [1792597552.371222603] [mavros]: Plugin fake_gps created
+[mavros_node-1] [INFO] [1792597552.371260143] [mavros]: Plugin fake_gps initialized
+[mavros_node-1] [INFO] [1792597552.371268739] [mavros]: Plugin ftp ignored
+[mavros_node-1] [INFO] [1792597552.379064075] [mavros]: Plugin geofence created
+[mavros_node-1] [INFO] [1792597552.379125179] [mavros]: Plugin geofence initialized
+[mavros_node-1] [INFO] [1792597552.391057414] [mavros]: Plugin gimbal_control created
+[mavros_node-1] [INFO] [1792597552.391109511] [mavros]: Plugin gimbal_control initialized
+[mavros_node-1] [INFO] [1792597552.402591809] [mavros]: Plugin global_position created
+[mavros_node-1] [INFO] [1792597552.402642834] [mavros]: Plugin global_position initialized
+[mavros_node-1] [INFO] [1792597552.409180884] [mavros]: Plugin gps_input created
+[mavros_node-1] [INFO] [1792597552.409282313] [mavros]: Plugin gps_input initialized
+[mavros_node-1] [INFO] [1792597552.416920838] [mavros]: Plugin gps_rtk created
+[mavros_node-1] [INFO] [1792597552.416964389] [mavros]: Plugin gps_rtk initialized
+[mavros_node-1] [INFO] [1792597552.425102112] [mavros]: Plugin gps_status created
+[mavros_node-1] [INFO] [1792597552.425150472] [mavros]: Plugin gps_status initialized
+[mavros_node-1] [INFO] [1792597552.433017642] [mavros]: Plugin guided_target created
+[mavros_node-1] [INFO] [1792597552.433072674] [mavros]: Plugin guided_target initialized
+[mavros_node-1] [INFO] [1792597552.433082122] [mavros]: Plugin hil ignored
+[mavros_node-1] [INFO] [1792597552.441894368] [mavros]: Plugin home_position created
+[mavros_node-1] [INFO] [1792597552.441941416] [mavros]: Plugin home_position initialized
+[mavros_node-1] [INFO] [1792597552.452559548] [mavros]: Plugin imu created
+[mavros_node-1] [INFO] [1792597552.452615532] [mavros]: Plugin imu initialized
+[mavros_node-1] [INFO] [1792597552.462975445] [mavros]: Plugin landing_target created
+[mavros_node-1] [INFO] [1792597552.463024146] [mavros]: Plugin landing_target initialized
+[mavros_node-1] [INFO] [1792597552.475097703] [mavros]: Plugin local_position created
+[mavros_node-1] [INFO] [1792597552.475141885] [mavros]: Plugin local_position initialized
+[mavros_node-1] [INFO] [1792597552.486990895] [mavros]: Plugin log_transfer created
+[mavros_node-1] [INFO] [1792597552.487040668] [mavros]: Plugin log_transfer initialized
+[mavros_node-1] [INFO] [1792597552.496286921] [mavros]: Plugin mag_calibration_status created
+[mavros_node-1] [INFO] [1792597552.496332014] [mavros]: Plugin mag_calibration_status initialized
+[mavros_node-1] [INFO] [1792597552.506326237] [mavros]: Plugin manual_control created
+[mavros_node-1] [INFO] [1792597552.506398692] [mavros]: Plugin manual_control initialized
+[mavros_node-1] [INFO] [1792597552.516174249] [mavros]: Plugin mocap_pose_estimate created
+[mavros_node-1] [INFO] [1792597552.516225304] [mavros]: Plugin mocap_pose_estimate initialized
+[mavros_node-1] [INFO] [1792597552.528257875] [mavros]: Plugin mount_control created
+[mavros_node-1] [INFO] [1792597552.528311134] [mavros]: Plugin mount_control initialized
+[mavros_node-1] [INFO] [1792597552.538408429] [mavros]: Plugin nav_controller_output created
+[mavros_node-1] [INFO] [1792597552.538474050] [mavros]: Plugin nav_controller_output initialized
+[mavros_node-1] [INFO] [1792597552.548982700] [mavros]: Plugin obstacle_distance created
+[mavros_node-1] [INFO] [1792597552.549020039] [mavros]: Plugin obstacle_distance initialized
+[mavros_node-1] [INFO] [1792597552.559605100] [mavros]: Plugin obstacle_distance_3d created
+[mavros_node-1] [INFO] [1792597552.559643542] [mavros]: Plugin obstacle_distance_3d initialized
+[mavros_node-1] [INFO] [1792597552.571103789] [mavros]: Plugin odometry created
+[mavros_node-1] [INFO] [1792597552.571147691] [mavros]: Plugin odometry initialized
+[mavros_node-1] [INFO] [1792597552.582710459] [mavros]: Plugin onboard_computer_status created
+[mavros_node-1] [INFO] [1792597552.582766192] [mavros]: Plugin onboard_computer_status initialized
+[mavros_node-1] [INFO] [1792597552.597767080] [mavros]: Plugin open_drone_id created
+[mavros_node-1] [INFO] [1792597552.597805381] [mavros]: Plugin open_drone_id initialized
+[mavros_node-1] [INFO] [1792597552.610786365] [mavros]: Plugin optical_flow created
+[mavros_node-1] [INFO] [1792597552.610830827] [mavros]: Plugin optical_flow initialized
+[mavros_node-1] [INFO] [1792597552.623778549] [mavros]: Plugin param created
+[mavros_node-1] [INFO] [1792597552.623828532] [mavros]: Plugin param initialized
+[mavros_node-1] [INFO] [1792597552.635682461] [mavros]: Plugin play_tune created
+[mavros_node-1] [INFO] [1792597552.635739858] [mavros]: Plugin play_tune initialized
+[mavros_node-1] [INFO] [1792597552.635749546] [mavros]: Plugin px4flow ignored
+[mavros_node-1] [INFO] [1792597552.651981200] [mavros]: Plugin rallypoint created
+[mavros_node-1] [INFO] [1792597552.652217740] [mavros]: Plugin rallypoint initialized
+[mavros_node-1] [INFO] [1792597552.665039858] [mavros]: Plugin rangefinder created
+[mavros_node-1] [INFO] [1792597552.665129234] [mavros]: Plugin rangefinder initialized
+[mavros_node-1] [INFO] [1792597552.680371611] [mavros]: Plugin rc_io created
+[mavros_node-1] [INFO] [1792597552.680452210] [mavros]: Plugin rc_io initialized
+[mavros_node-1] [INFO] [1792597552.695781648] [mavros]: Plugin setpoint_accel created
+[mavros_node-1] [INFO] [1792597552.695837683] [mavros]: Plugin setpoint_accel initialized
+[mavros_node-1] [INFO] [1792597552.713574164] [mavros]: Plugin setpoint_attitude created
+[mavros_node-1] [INFO] [1792597552.713629156] [mavros]: Plugin setpoint_attitude initialized
+[mavros_node-1] [INFO] [1792597552.738628104] [mavros]: Plugin setpoint_position created
+[mavros_node-1] [INFO] [1792597552.738741484] [mavros]: Plugin setpoint_position initialized
+[mavros_node-1] [INFO] [1792597552.764800412] [mavros]: Plugin setpoint_raw created
+[mavros_node-1] [INFO] [1792597552.764882615] [mavros]: Plugin setpoint_raw initialized
+[mavros_node-1] [INFO] [1792597552.785581371] [mavros]: Plugin setpoint_trajectory created
+[mavros_node-1] [INFO] [1792597552.785631324] [mavros]: Plugin setpoint_trajectory initialized
+[mavros_node-1] [INFO] [1792597552.806269547] [mavros]: Plugin setpoint_velocity created
+[mavros_node-1] [INFO] [1792597552.806314341] [mavros]: Plugin setpoint_velocity initialized
+[mavros_node-1] [INFO] [1792597552.829984048] [mavros]: Plugin sim_state created
+[mavros_node-1] [INFO] [1792597552.830035724] [mavros]: Plugin sim_state initialized
+[mavros_node-1] [INFO] [1792597552.865988398] [mavros]: Plugin sys_status created
+[mavros_node-1] [INFO] [1792597552.866070771] [mavros]: Plugin sys_status initialized
+[mavros_node-1] [INFO] [1792597552.885535484] [mavros.time]: TM: Timesync mode: MAVLINK
+[mavros_node-1] [INFO] [1792597552.890735257] [mavros]: Plugin sys_time created
+[mavros_node-1] [INFO] [1792597552.890789288] [mavros]: Plugin sys_time initialized
+[mavros_node-1] [INFO] [1792597552.912359503] [mavros]: Plugin tdr_radio created
+[mavros_node-1] [INFO] [1792597552.912429253] [mavros]: Plugin tdr_radio initialized
+[mavros_node-1] [INFO] [1792597552.938368729] [mavros]: Plugin terrain created
+[mavros_node-1] [INFO] [1792597552.938429131] [mavros]: Plugin terrain initialized
+[mavros_node-1] [INFO] [1792597552.962413353] [mavros]: Plugin trajectory created
+[mavros_node-1] [INFO] [1792597552.962465079] [mavros]: Plugin trajectory initialized
+[mavros_node-1] [INFO] [1792597552.985247748] [mavros]: Plugin tunnel created
+[mavros_node-1] [INFO] [1792597552.985307930] [mavros]: Plugin tunnel initialized
+[mavros_node-1] [INFO] [1792597553.008058719] [mavros]: Plugin vfr_hud created
+[mavros_node-1] [INFO] [1792597553.008246047] [mavros]: Plugin vfr_hud initialized
+[mavros_node-1] [INFO] [1792597553.008256747] [mavros]: Plugin vibration ignored
+[mavros_node-1] [INFO] [1792597553.034732328] [mavros]: Plugin vision_pose created
+[mavros_node-1] [INFO] [1792597553.034793873] [mavros]: Plugin vision_pose initialized
+[mavros_node-1] [INFO] [1792597553.059947908] [mavros]: Plugin vision_speed created
+[mavros_node-1] [INFO] [1792597553.060014261] [mavros]: Plugin vision_speed initialized
+[mavros_node-1] [INFO] [1792597553.091858018] [mavros]: Plugin waypoint created
+[mavros_node-1] [INFO] [1792597553.091936935] [mavros]: Plugin waypoint initialized
+[mavros_node-1] [INFO] [1792597553.091947585] [mavros]: Plugin wheel_odometry ignored
+[mavros_node-1] [INFO] [1792597553.113033159] [mavros]: Plugin wind_estimation created
+[mavros_node-1] [INFO] [1792597553.113091778] [mavros]: Plugin wind_estimation initialized
+[mavros_node-1] [INFO] [1792597553.115831590] [mavros]: Built-in SIMD instructions: SSE, SSE2
+[mavros_node-1] [INFO] [1792597553.115874620] [mavros]: Built-in MAVLink package version: 2026.9.9
+[mavros_node-1] [INFO] [1792597553.115880831] [mavros]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all csAirLink cubepilot development icarous loweheiser marsh paparazzi standard stemstudios storm32 uAvionix
+[mavros_node-1] [INFO] [1792597553.115885840] [mavros]: MAVROS UAS via /uas1 started. MY ID 1.191, TARGET ID 1.1
+[mavros_node-1] [INFO] [1792597553.187308369] [mavros_router]: link[1001] detected remote address 1.191
+[mavros_node-1] [WARN] [1792597554.876754235] [mavros.sys]: VER: broadcast request timeout, retries left 4
+[mavros_node-1] [INFO] [1792597555.385713802] [mavros_router]: link[1000] detected remote address 1.1
+[mavros_node-1] [WARN] [1792597555.386151516] [mavros.cmd]: CMD: Unexpected command 512, result 0
+[mavros_node-1] [INFO] [1792597555.718783599] [mavros.sys]: FCU: Calibrating barometer
+[mavros_node-1] [WARN] [1792597555.881277854] [mavros.sys]: VER: broadcast request timeout, retries left 3
+[mavros_node-1] [INFO] [1792597556.716847703] [mavros]: CON: Got HEARTBEAT, connected. FCU: ArduPilot
+[mavros_node-1] [INFO] [1792597556.717069666] [mavros.mission]: WP: detected enable_partial_push: 1
+[mavros_node-1] [INFO] [1792597556.717251524] [mavros.geofence]: GF: Using MISSION_ITEM_INT
+[mavros_node-1] [INFO] [1792597556.717275378] [mavros.rallypoint]: RP: Using MISSION_ITEM_INT
+[mavros_node-1] [INFO] [1792597556.717287541] [mavros.mission]: WP: Using MISSION_ITEM_INT
+[mavros_node-1] [INFO] [1792597556.717296587] [mavros.sys]: VER: 1.1: Capabilities         0x000000000000fbef
+[mavros_node-1] [INFO] [1792597556.717308860] [mavros.sys]: VER: 1.1: Flight software:     040507ff (2a3dc4b7)
+[mavros_node-1] [INFO] [1792597556.717315312] [mavros.sys]: VER: 1.1: Middleware software: 00000000 (        )
+[mavros_node-1] [INFO] [1792597556.717320732] [mavros.sys]: VER: 1.1: OS software:         00000000 (        )
+[mavros_node-1] [INFO] [1792597556.717326102] [mavros.sys]: VER: 1.1: Board hardware:      00000000
+[mavros_node-1] [INFO] [1792597556.717420999] [mavros.sys]: VER: 1.1: VID/PID:             0000:0000
+[mavros_node-1] [INFO] [1792597556.717427140] [mavros.sys]: VER: 1.1: UID:                 0000000000000000
+[mavros_node-1] [INFO] [1792597557.846852213] [mavros.sys]: FCU: Barometer 1 calibration complete
+[mavros_node-1] [INFO] [1792597557.847044490] [mavros.sys]: FCU: Barometer 2 calibration complete
+[mavros_node-1] [INFO] [1792597557.853347242] [mavros.sys]: FCU: ArduPilot Ready
+[mavros_node-1] [INFO] [1792597557.853450394] [mavros.sys]: FCU: AHRS: DCM active
+[mavros_node-1] [INFO] [1792597558.208817543] [mavros.sys]: FCU: RC7: SaveWaypoint LOW
+[mavros_node-1] [INFO] [1792597558.208992368] [mavros.sys]: FCU: RC8: PrecisionLoiter MIDDLE
+[mavros_node-1] [INFO] [1792597560.556621995] [mavros.sys]: FCU: EKF3 IMU0 initialised
+[mavros_node-1] [INFO] [1792597560.556916742] [mavros.sys]: FCU: EKF3 IMU1 initialised
+[mavros_node-1] [INFO] [1792597560.562033160] [mavros.sys]: FCU: AHRS: EKF3 active
+[mavros_node-1] [ERROR] [1792597561.404939005] [mavros.sys]: FCU: Arm: Accels inconsistent
+[mavros_node-1] [ERROR] [1792597561.405208185] [mavros.sys]: FCU: Arm: EKF attitude is bad
+[mavros_node-1] [ERROR] [1792597561.405329140] [mavros.sys]: FCU: Arm: AHRS: EKF3 still initialising
+[mavros_node-1] [INFO] [1792597562.219350038] [mavros.sys]: FCU: EKF3 IMU0 tilt alignment complete
+[mavros_node-1] [INFO] [1792597562.219504935] [mavros.sys]: FCU: EKF3 IMU1 tilt alignment complete
+[mavros_node-1] [INFO] [1792597562.330852925] [mavros.sys]: FCU: EKF3 IMU0 MAG0 initial yaw alignment complete
+[mavros_node-1] [INFO] [1792597562.330984169] [mavros.sys]: FCU: EKF3 IMU1 MAG0 initial yaw alignment complete
+[mavros_node-1] [ERROR] [1792597566.628300521] [mavros.sys]: FCU: Arm: Accels inconsistent
+[mavros_node-1] [INFO] [1792597566.718525493] [mavros.home_position]: HP: requesting home position
+[mavros_node-1] [INFO] [1792597566.726656942] [mavros.sys]: FCU: ArduCopter V4.5.7 (2a3dc4b7)
+[mavros_node-1] [INFO] [1792597566.726845823] [mavros.sys]: FCU: a3e8c3e070254e57874b394595426325
+[mavros_node-1] [INFO] [1792597566.726912446] [mavros.sys]: FCU: Frame: QUAD/X
+[mavros_node-1] [WARN] [1792597572.721720415] [mavros.mission]: WP: timeout, retries left 2
+[mavros_node-1] [INFO] [1792597573.365508551] [mavros.sys]: FCU: GPS 1: detected as u-blox at 230400 baud
+[mavros_node-1] [WARN] [1792597573.723979336] [mavros.mission]: WP: timeout, retries left 1
+[mavros_node-1] [WARN] [1792597574.725725311] [mavros.mission]: WP: timeout, retries left 0
+[mavros_node-1] [ERROR] [1792597575.728072179] [mavros.mission]: WP: timed out.
+[mavros_node-1] [WARN] [1792597575.837917624] [mavros.cmd]: CMD: Command 22 -- ack timeout
+[mavros_node-1] [INFO] [1792597576.725817736] [mavros.home_position]: HP: requesting home position
+[mavros_node-1] [WARN] [1792597577.596655733] [mavros]: CON: Lost connection, HEARTBEAT timed out.
+[mavros_node-1] [WARN] [1792597577.729044282] [mavros.rallypoint]: RP: timeout, retries left 2
+[mavros_node-1] [WARN] [1792597578.730881495] [mavros.rallypoint]: RP: timeout, retries left 1
+[mavros_node-1] [WARN] [1792597579.731702076] [mavros.rallypoint]: RP: timeout, retries left 0
+[mavros_node-1] [ERROR] [1792597580.733348098] [mavros.rallypoint]: RP: timed out.
+[mavros_node-1] [WARN] [1792597581.737754765] [mavros.cmd]: CMD: Command 410 -- ack timeout
+[mavros_node-1] [WARN] [1792597590.791893551] [mavros.time]: TM: RTT too high for timesync: 22802.75 ms.
+[mavros_node-1] [INFO] [1792597590.792115924] [mavros]: CON: Got HEARTBEAT, connected. FCU: ArduPilot
+[mavros_node-1] [INFO] [1792597590.792241688] [mavros.mission]: WP: detected enable_partial_push: 1
+[mavros_node-1] [WARN] [1792597590.792493355] [mavros.time]: TM: RTT too high for timesync: 21704.33 ms.
+[mavros_node-1] [WARN] [1792597590.792754500] [mavros.time]: TM: RTT too high for timesync: 20603.94 ms.
+[mavros_node-1] [WARN] [1792597590.792942449] [mavros.cmd]: CMD: Unexpected command 22, result 4
+[mavros_node-1] [WARN] [1792597590.793151418] [mavros.time]: TM: RTT too high for timesync: 19504.71 ms.
+[mavros_node-1] [INFO] [1792597590.793341511] [mavros.mission]: WP: seems GCS requesting mission
+[mavros_node-1] [INFO] [1792597590.793352551] [mavros.mission]: WP: scheduling pull after GCS is done
+[mavros_node-1] [WARN] [1792597590.793628003] [mavros.time]: TM: RTT too high for timesync: 18404.87 ms.
+[mavros_node-1] [INFO] [1792597590.793766240] [mavros.mission]: WP: seems GCS requesting mission
+[mavros_node-1] [INFO] [1792597590.793778222] [mavros.mission]: WP: scheduling pull after GCS is done
+[mavros_node-1] [WARN] [1792597590.793959198] [mavros.time]: TM: RTT too high for timesync: 17305.18 ms.
+[mavros_node-1] [INFO] [1792597590.794026503] [mavros.mission]: WP: seems GCS requesting mission
+[mavros_node-1] [INFO] [1792597590.794041170] [mavros.mission]: WP: scheduling pull after GCS is done
+[mavros_node-1] [WARN] [1792597590.794235010] [mavros.time]: TM: RTT too high for timesync: 16205.37 ms.
+[mavros_node-1] [INFO] [1792597590.794372866] [mavros.mission]: WP: seems GCS requesting mission
+[mavros_node-1] [INFO] [1792597590.794384789] [mavros.mission]: WP: scheduling pull after GCS is done
+[mavros_node-1] [WARN] [1792597590.794549755] [mavros.time]: TM: RTT too high for timesync: 15105.23 ms.
+[mavros_node-1] [INFO] [1792597590.794805310] [mavros.rallypoint]: RP: seems GCS requesting mission
+[mavros_node-1] [INFO] [1792597590.794826469] [mavros.rallypoint]: RP: scheduling pull after GCS is done
+[mavros_node-1] [WARN] [1792597590.794898082] [mavros.time]: TM: RTT too high for timesync: 14004.30 ms.
+[mavros_node-1] [INFO] [1792597590.795096070] [mavros.rallypoint]: RP: seems GCS requesting mission
+[mavros_node-1] [INFO] [1792597590.795107902] [mavros.rallypoint]: RP: scheduling pull after GCS is done
+[mavros_node-1] [WARN] [1792597590.795163695] [mavros.time]: TM: RTT too high for timesync: 12904.26 ms.
+[mavros_node-1] [INFO] [1792597590.795422827] [mavros.rallypoint]: RP: seems GCS requesting mission
+[mavros_node-1] [INFO] [1792597590.795438556] [mavros.rallypoint]: RP: scheduling pull after GCS is done
+[mavros_node-1] [WARN] [1792597590.795508616] [mavros.time]: TM: RTT too high for timesync: 11806.74 ms.
+[mavros_node-1] [INFO] [1792597590.795859027] [mavros.rallypoint]: RP: seems GCS requesting mission
+[mavros_node-1] [INFO] [1792597590.795902057] [mavros.rallypoint]: RP: scheduling pull after GCS is done
+[mavros_node-1] [INFO] [1792597590.796392588] [mavros.sys]: FCU: EKF3 IMU1 origin set
+[mavros_node-1] [INFO] [1792597590.889771960] [mavros.sys]: FCU: Field Elevation Set: 584m
+[mavros_node-1] [WARN] [1792597590.890070935] [mavros.time]: TM: RTT too high for timesync: 10800.31 ms.
+[mavros_node-1] [INFO] [1792597590.890202420] [mavros.sys]: FCU: EKF3 IMU0 origin set
+[mavros_node-1] [WARN] [1792597590.890478633] [mavros.time]: TM: RTT too high for timesync: 9700.75 ms.
+[mavros_node-1] [WARN] [1792597590.890991355] [mavros.time]: TM: RTT too high for timesync: 8601.84 ms.
+[mavros_node-1] [WARN] [1792597590.891310177] [mavros.time]: TM: RTT too high for timesync: 7502.26 ms.
+[mavros_node-1] [WARN] [1792597590.891625924] [mavros.time]: TM: RTT too high for timesync: 6401.49 ms.
+[mavros_node-1] [WARN] [1792597590.891862744] [mavros.time]: TM: RTT too high for timesync: 5302.13 ms.
+[mavros_node-1] [WARN] [1792597590.892128016] [mavros.time]: TM: RTT too high for timesync: 4202.45 ms.
+[mavros_node-1] [WARN] [1792597590.892321436] [mavros.time]: TM: RTT too high for timesync: 3102.74 ms.
+[mavros_node-1] [WARN] [1792597590.892541725] [mavros.time]: TM: RTT too high for timesync: 1998.44 ms.
+[mavros_node-1] [WARN] [1792597590.892800756] [mavros.time]: TM: RTT too high for timesync: 903.13 ms.
+[mavros_node-1] [INFO] [1792597591.803233926] [mavros.sys]: VER: 1.1: Capabilities         0x000000000000fbef
+[mavros_node-1] [INFO] [1792597591.803295911] [mavros.sys]: VER: 1.1: Flight software:     040507ff (2a3dc4b7)
+[mavros_node-1] [INFO] [1792597591.803309496] [mavros.sys]: VER: 1.1: Middleware software: 00000000 (        )
+[mavros_node-1] [INFO] [1792597591.803317210] [mavros.sys]: VER: 1.1: OS software:         00000000 (        )
+[mavros_node-1] [INFO] [1792597591.803324604] [mavros.sys]: VER: 1.1: Board hardware:      00000000
+[mavros_node-1] [INFO] [1792597591.803469663] [mavros.sys]: VER: 1.1: VID/PID:             0000:0000
+[mavros_node-1] [INFO] [1792597591.803475655] [mavros.sys]: VER: 1.1: UID:                 0000000000000000
+[mavros_node-1] [WARN] [1792597591.856067923] [mavros.param]: PR: request param #30 timeout, retries left 2, and 394 params still missing
+[mavros_node-1] [INFO] [1792597593.649569379] [mavros.param]: PR: got an unsolicited param value idx=65535, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597593.774464613] [mavros.param]: PR: got an unsolicited param value idx=44, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597593.918781402] [mavros.param]: PR: got an unsolicited param value idx=45, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597594.035590256] [mavros.param]: PR: got an unsolicited param value idx=46, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597594.163395493] [mavros.param]: PR: got an unsolicited param value idx=47, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597594.345009344] [mavros.param]: PR: got an unsolicited param value idx=48, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597594.453716729] [mavros.param]: PR: got an unsolicited param value idx=49, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597594.565913334] [mavros.param]: PR: got an unsolicited param value idx=50, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597594.670075316] [mavros.param]: PR: got an unsolicited param value idx=51, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597594.779073740] [mavros.param]: PR: got an unsolicited param value idx=52, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597594.890356608] [mavros.param]: PR: got an unsolicited param value idx=53, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597595.004968109] [mavros.param]: PR: got an unsolicited param value idx=54, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597595.121128654] [mavros.param]: PR: got an unsolicited param value idx=55, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597595.240664850] [mavros.param]: PR: got an unsolicited param value idx=56, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597595.360427987] [mavros.param]: PR: got an unsolicited param value idx=57, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597595.491948411] [mavros.param]: PR: got an unsolicited param value idx=58, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597595.612976738] [mavros.param]: PR: got an unsolicited param value idx=59, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597595.738583288] [mavros.param]: PR: got an unsolicited param value idx=60, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597595.799353202] [mavros.mission]: WP: mission received
+[mavros_node-1] [INFO] [1792597595.799575956] [mavros.rallypoint]: RP: mission received
+[mavros_node-1] [INFO] [1792597595.868100693] [mavros.param]: PR: got an unsolicited param value idx=61, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597596.000600927] [mavros.param]: PR: got an unsolicited param value idx=62, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597596.121732052] [mavros.param]: PR: got an unsolicited param value idx=63, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597596.263364516] [mavros.param]: PR: got an unsolicited param value idx=64, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597596.407236059] [mavros.param]: PR: got an unsolicited param value idx=65, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597596.537557063] [mavros.param]: PR: got an unsolicited param value idx=66, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597596.660448518] [mavros.param]: PR: got an unsolicited param value idx=67, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597596.779599926] [mavros.param]: PR: got an unsolicited param value idx=68, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597596.890913045] [mavros.param]: PR: got an unsolicited param value idx=69, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597597.016908575] [mavros.param]: PR: got an unsolicited param value idx=70, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597597.153403143] [mavros.param]: PR: got an unsolicited param value idx=71, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597597.380167623] [mavros.param]: PR: got an unsolicited param value idx=72, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597597.527949105] [mavros.param]: PR: got an unsolicited param value idx=73, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597597.672047696] [mavros.param]: PR: got an unsolicited param value idx=74, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597597.827387265] [mavros.param]: PR: got an unsolicited param value idx=75, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597597.978646416] [mavros.param]: PR: got an unsolicited param value idx=76, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597598.125975024] [mavros.param]: PR: got an unsolicited param value idx=77, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597598.245608853] [mavros.param]: PR: got an unsolicited param value idx=78, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597598.365303515] [mavros.param]: PR: got an unsolicited param value idx=79, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597598.483391854] [mavros.param]: PR: got an unsolicited param value idx=80, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597598.612448514] [mavros.param]: PR: got an unsolicited param value idx=81, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597598.733176836] [mavros.param]: PR: got an unsolicited param value idx=82, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597598.864110703] [mavros.param]: PR: got an unsolicited param value idx=83, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597598.993538422] [mavros.param]: PR: got an unsolicited param value idx=84, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597599.120664354] [mavros.param]: PR: got an unsolicited param value idx=85, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597599.259732196] [mavros.param]: PR: got an unsolicited param value idx=86, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597599.390232464] [mavros.param]: PR: got an unsolicited param value idx=87, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597599.532059190] [mavros.param]: PR: got an unsolicited param value idx=88, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597599.679786765] [mavros.param]: PR: got an unsolicited param value idx=89, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597599.839343351] [mavros.param]: PR: got an unsolicited param value idx=90, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597599.974423405] [mavros.param]: PR: got an unsolicited param value idx=91, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597600.112537253] [mavros.param]: PR: got an unsolicited param value idx=92, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597600.251087019] [mavros.param]: PR: got an unsolicited param value idx=93, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597600.382182080] [mavros.param]: PR: got an unsolicited param value idx=94, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597600.516857100] [mavros.param]: PR: got an unsolicited param value idx=95, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597600.637049251] [mavros.param]: PR: got an unsolicited param value idx=96, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597600.765866151] [mavros.param]: PR: got an unsolicited param value idx=97, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597600.810600465] [mavros.sys]: FCU: ArduCopter V4.5.7 (2a3dc4b7)
+[mavros_node-1] [INFO] [1792597600.810784577] [mavros.sys]: FCU: a3e8c3e070254e57874b394595426325
+[mavros_node-1] [INFO] [1792597600.810873582] [mavros.sys]: FCU: Frame: QUAD/X
+[mavros_node-1] [WARN] [1792597610.613571782] [mavros]: CON: Lost connection, HEARTBEAT timed out.
+[mavros_node-1] [INFO] [1792597631.393339037] [mavros]: CON: Got HEARTBEAT, connected. FCU: ArduPilot
+[mavros_node-1] [INFO] [1792597631.393485529] [mavros.mission]: WP: detected enable_partial_push: 1
+[mavros_node-1] [WARN] [1792597631.393661405] [mavros.time]: TM: RTT too high for timesync: 29402.67 ms.
+[mavros_node-1] [WARN] [1792597631.393945022] [mavros.time]: TM: RTT too high for timesync: 28302.73 ms.
+[mavros_node-1] [WARN] [1792597631.394248455] [mavros.time]: TM: RTT too high for timesync: 27201.73 ms.
+[mavros_node-1] [WARN] [1792597631.394526451] [mavros.time]: TM: RTT too high for timesync: 26103.64 ms.
+[mavros_node-1] [WARN] [1792597631.394701526] [mavros.time]: TM: RTT too high for timesync: 25003.74 ms.
+[mavros_node-1] [WARN] [1792597631.395039263] [mavros.time]: TM: RTT too high for timesync: 23903.35 ms.
+[mavros_node-1] [INFO] [1792597631.395318642] [mavros.sys]: FCU: EKF3 IMU1 is using GPS
+[mavros_node-1] [WARN] [1792597631.395437463] [mavros.time]: TM: RTT too high for timesync: 22804.28 ms.
+[mavros_node-1] [INFO] [1792597631.395506781] [mavros.sys]: FCU: EKF3 IMU0 is using GPS
+[mavros_node-1] [WARN] [1792597631.395771944] [mavros.time]: TM: RTT too high for timesync: 21704.30 ms.
+[mavros_node-1] [WARN] [1792597631.396068945] [mavros.time]: TM: RTT too high for timesync: 20604.79 ms.
+[mavros_node-1] [WARN] [1792597631.396272042] [mavros.time]: TM: RTT too high for timesync: 19501.64 ms.
+[mavros_node-1] [WARN] [1792597631.396462826] [mavros.time]: TM: RTT too high for timesync: 18405.18 ms.
+[mavros_node-1] [WARN] [1792597631.396631099] [mavros.time]: TM: RTT too high for timesync: 17304.78 ms.
+[mavros_node-1] [WARN] [1792597631.396804180] [mavros.time]: TM: RTT too high for timesync: 16204.91 ms.
+[mavros_node-1] [WARN] [1792597631.396971070] [mavros.time]: TM: RTT too high for timesync: 15104.17 ms.
+[mavros_node-1] [WARN] [1792597631.397178014] [mavros.time]: TM: RTT too high for timesync: 14005.32 ms.
+[mavros_node-1] [WARN] [1792597631.397436645] [mavros.time]: TM: RTT too high for timesync: 12905.48 ms.
+[mavros_node-1] [WARN] [1792597631.397731221] [mavros.time]: TM: RTT too high for timesync: 11804.33 ms.
+[mavros_node-1] [WARN] [1792597631.398005441] [mavros.time]: TM: RTT too high for timesync: 10706.11 ms.
+[mavros_node-1] [WARN] [1792597631.398287264] [mavros.time]: TM: RTT too high for timesync: 9605.25 ms.
+[mavros_node-1] [WARN] [1792597631.398592801] [mavros.time]: TM: RTT too high for timesync: 8503.15 ms.
+[mavros_node-1] [WARN] [1792597631.398894752] [mavros.time]: TM: RTT too high for timesync: 7406.64 ms.
+[mavros_node-1] [WARN] [1792597631.399250412] [mavros.time]: TM: RTT too high for timesync: 6306.63 ms.
+[mavros_node-1] [WARN] [1792597631.399549047] [mavros.time]: TM: RTT too high for timesync: 5207.17 ms.
+[mavros_node-1] [WARN] [1792597631.399861847] [mavros.time]: TM: RTT too high for timesync: 4107.94 ms.
+[mavros_node-1] [WARN] [1792597631.400172294] [mavros.time]: TM: RTT too high for timesync: 3007.77 ms.
+[mavros_node-1] [WARN] [1792597631.400470608] [mavros.time]: TM: RTT too high for timesync: 1908.05 ms.
+[mavros_node-1] [WARN] [1792597631.400803335] [mavros.time]: TM: RTT too high for timesync: 808.37 ms.
+[mavros_node-1] [WARN] [1792597632.300948348] [mavros.param]: PR: request param #21 timeout, retries left 2, and 398 params still missing
+[mavros_node-1] [WARN] [1792597632.403371703] [mavros.cmd]: CMD: Unexpected command 512, result 0
+[mavros_node-1] [INFO] [1792597632.403550856] [mavros.sys]: VER: 1.1: Capabilities         0x000000000000fbef
+[mavros_node-1] [INFO] [1792597632.403587423] [mavros.sys]: VER: 1.1: Flight software:     040507ff (2a3dc4b7)
+[mavros_node-1] [INFO] [1792597632.403599586] [mavros.sys]: VER: 1.1: Middleware software: 00000000 (        )
+[mavros_node-1] [INFO] [1792597632.403606188] [mavros.sys]: VER: 1.1: OS software:         00000000 (        )
+[mavros_node-1] [INFO] [1792597632.403613542] [mavros.sys]: VER: 1.1: Board hardware:      00000000
+[mavros_node-1] [INFO] [1792597632.403621356] [mavros.sys]: VER: 1.1: VID/PID:             0000:0000
+[mavros_node-1] [INFO] [1792597632.403628169] [mavros.sys]: VER: 1.1: UID:                 0000000000000000
+[mavros_node-1] [INFO] [1792597636.570543205] [mavros.param]: PR: got an unsolicited param value idx=65535, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597636.594634162] [mavros.param]: PR: got an unsolicited param value idx=52, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597636.795029052] [mavros.param]: PR: got an unsolicited param value idx=53, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597636.995294942] [mavros.param]: PR: got an unsolicited param value idx=54, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597637.094536070] [mavros.param]: PR: got an unsolicited param value idx=55, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597637.295328976] [mavros.param]: PR: got an unsolicited param value idx=56, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597637.395978989] [mavros.param]: PR: got an unsolicited param value idx=57, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597637.519270498] [mavros.param]: PR: got an unsolicited param value idx=58, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597637.693894991] [mavros.param]: PR: got an unsolicited param value idx=59, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597637.795015427] [mavros.param]: PR: got an unsolicited param value idx=60, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597637.994748275] [mavros.param]: PR: got an unsolicited param value idx=61, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597638.195179335] [mavros.param]: PR: got an unsolicited param value idx=62, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597638.294738271] [mavros.param]: PR: got an unsolicited param value idx=63, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597638.395185627] [mavros.param]: PR: got an unsolicited param value idx=64, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597638.595102943] [mavros.param]: PR: got an unsolicited param value idx=65, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597638.695113057] [mavros.param]: PR: got an unsolicited param value idx=66, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597638.794479235] [mavros.param]: PR: got an unsolicited param value idx=67, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597638.893244658] [mavros.param]: PR: got an unsolicited param value idx=68, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597639.094780397] [mavros.param]: PR: got an unsolicited param value idx=69, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597639.194365310] [mavros.param]: PR: got an unsolicited param value idx=70, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597639.294186421] [mavros.param]: PR: got an unsolicited param value idx=71, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597639.494387250] [mavros.param]: PR: got an unsolicited param value idx=72, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597639.595041588] [mavros.param]: PR: got an unsolicited param value idx=73, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597639.694745391] [mavros.param]: PR: got an unsolicited param value idx=74, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597639.759449005] [mavros.param]: PR: got an unsolicited param value idx=75, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597639.894475386] [mavros.param]: PR: got an unsolicited param value idx=76, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597639.993780399] [mavros.param]: PR: got an unsolicited param value idx=77, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597640.195249820] [mavros.param]: PR: got an unsolicited param value idx=78, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597640.295353073] [mavros.param]: PR: got an unsolicited param value idx=79, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597640.395210139] [mavros.param]: PR: got an unsolicited param value idx=80, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597640.495078375] [mavros.param]: PR: got an unsolicited param value idx=81, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597640.594903893] [mavros.param]: PR: got an unsolicited param value idx=82, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597640.694825699] [mavros.param]: PR: got an unsolicited param value idx=83, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597640.859282215] [mavros.param]: PR: got an unsolicited param value idx=84, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597640.994872981] [mavros.param]: PR: got an unsolicited param value idx=85, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597641.095383138] [mavros.param]: PR: got an unsolicited param value idx=86, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597641.194097811] [mavros.param]: PR: got an unsolicited param value idx=87, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597641.294861198] [mavros.param]: PR: got an unsolicited param value idx=88, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597641.394440957] [mavros.param]: PR: got an unsolicited param value idx=89, not resetting retries count 3
+[mavros_node-1] [INFO] [1792597641.395382565] [mavros.home_position]: HP: requesting home position
+[mavros_node-1] [INFO] [1792597641.424212207] [mavros.sys]: FCU: ArduCopter V4.5.7 (2a3dc4b7)
+[mavros_node-1] [INFO] [1792597641.424341978] [mavros.sys]: FCU: a3e8c3e070254e57874b394595426325
+[mavros_node-1] [INFO] [1792597641.424398513] [mavros.sys]: FCU: Frame: QUAD/X
+[mavros_node-1] [WARN] [1792597647.398001665] [mavros.mission]: WP: timeout, retries left 2
+[mavros_node-1] [WARN] [1792597648.399356214] [mavros.mission]: WP: timeout, retries left 1
+[mavros_node-1] [WARN] [1792597649.399813048] [mavros.mission]: WP: timeout, retries left 0
+[mavros_node-1] [ERROR] [1792597650.403291765] [mavros.mission]: WP: timed out.
+[mavros_node-1] [WARN] [1792597650.909533050] [mavros]: CON: Lost connection, HEARTBEAT timed out.
+[mavros_node-1] [INFO] [1792597654.902861627] [mavros]: CON: Got HEARTBEAT, connected. FCU: ArduPilot
+[mavros_node-1] [INFO] [1792597654.903040179] [mavros.mission]: WP: detected enable_partial_push: 1
+[mavros_node-1] [WARN] [1792597656.922945212] [mavros.sys]: VER: broadcast request timeout, retries left 4
+[mavros_node-1] [WARN] [1792597657.918700495] [mavros.sys]: VER: broadcast request timeout, retries left 3
+[mavros_node-1] [ERROR] [1792597659.911717858] [mavros.sys]: VER: autopilot version service timeout
+[mavros_node-1] [ERROR] [1792597659.911911918] [mavros.sys]: VER: command plugin service call failed!
+[mavros_node-1] [WARN] [1792597659.911922307] [mavros.sys]: VER: unicast request timeout, retries left 2
+[mavros_node-1] [ERROR] [1792597660.924446657] [mavros.sys]: VER: autopilot version service timeout
+[mavros_node-1] [ERROR] [1792597660.924650555] [mavros.sys]: VER: command plugin service call failed!
+[mavros_node-1] [WARN] [1792597660.924675050] [mavros.sys]: VER: unicast request timeout, retries left 1
+[mavros_node-1] [ERROR] [1792597661.934634172] [mavros.sys]: VER: autopilot version service timeout
+[mavros_node-1] [ERROR] [1792597661.934821670] [mavros.sys]: VER: command plugin service call failed!
+[mavros_node-1] [WARN] [1792597661.934836467] [mavros.sys]: VER: unicast request timeout, retries left 0
+[mavros_node-1] [ERROR] [1792597662.945031871] [mavros.sys]: VER: autopilot version service timeout
+[mavros_node-1] [ERROR] [1792597662.945206655] [mavros.sys]: VER: command plugin service call failed!
+[mavros_node-1] [WARN] [1792597662.945233315] [mavros.sys]: VER: your FCU don't support AUTOPILOT_VERSION, switched to default capabilities
+[mavros_node-1] [WARN] [1792597663.913107157] [mavros.cmd]: CMD: Command 512 -- ack timeout
+[mavros_node-1] [WARN] [1792597664.904292814] [mavros]: CON: Lost connection, HEARTBEAT timed out.
+[mavros_node-1] [INFO] [1792597664.904315365] [mavros.home_position]: HP: requesting home position
+[mavros_node-1] [INFO] [1792597665.354983317] [mavros.geofence]: GF: Using MISSION_ITEM_INT
+[mavros_node-1] [INFO] [1792597665.355107047] [mavros.rallypoint]: RP: Using MISSION_ITEM_INT
+[mavros_node-1] [INFO] [1792597665.355137443] [mavros.mission]: WP: Using MISSION_ITEM_INT
+[mavros_node-1] [INFO] [1792597665.355160746] [mavros.sys]: VER: 1.1: Capabilities         0x000000000000fbef
+[mavros_node-1] [INFO] [1792597665.355178099] [mavros.sys]: VER: 1.1: Flight software:     040507ff (2a3dc4b7)
+[mavros_node-1] [INFO] [1792597665.355186905] [mavros.sys]: VER: 1.1: Middleware software: 00000000 (        )
+[mavros_node-1] [INFO] [1792597665.355205379] [mavros.sys]: VER: 1.1: OS software:         00000000 (        )
+[mavros_node-1] [INFO] [1792597665.355213264] [mavros.sys]: VER: 1.1: Board hardware:      00000000
+[mavros_node-1] [INFO] [1792597665.355221589] [mavros.sys]: VER: 1.1: VID/PID:             0000:0000
+[mavros_node-1] [INFO] [1792597665.355229153] [mavros.sys]: VER: 1.1: UID:                 0000000000000000
+[mavros_node-1] [INFO] [1792597665.355332024] [mavros]: CON: Got HEARTBEAT, connected. FCU: ArduPilot
+[mavros_node-1] [INFO] [1792597665.355476533] [mavros.mission]: WP: detected enable_partial_push: 1
+[mavros_node-1] [WARN] [1792597665.355765920] [mavros.time]: TM: RTT too high for timesync: 8859.92 ms.
+[mavros_node-1] [WARN] [1792597665.355919244] [mavros.cmd]: CMD: Unexpected command 512, result 0
+[mavros_node-1] [INFO] [1792597665.355996938] [mavros.sys]: VER: 1.1: Capabilities         0x000000000000fbef
+[mavros_node-1] [INFO] [1792597665.356055177] [mavros.sys]: VER: 1.1: Flight software:     040507ff (2a3dc4b7)
+[mavros_node-1] [INFO] [1792597665.356070796] [mavros.sys]: VER: 1.1: Middleware software: 00000000 (        )
+[mavros_node-1] [INFO] [1792597665.356081616] [mavros.sys]: VER: 1.1: OS software:         00000000 (        )
+[mavros_node-1] [INFO] [1792597665.356091714] [mavros.sys]: VER: 1.1: Board hardware:      00000000
+[mavros_node-1] [INFO] [1792597665.356102384] [mavros.sys]: VER: 1.1: VID/PID:             0000:0000
+[mavros_node-1] [INFO] [1792597665.356114407] [mavros.sys]: VER: 1.1: UID:                 0000000000000000
+[mavros_node-1] [WARN] [1792597665.356277509] [mavros.time]: TM: RTT too high for timesync: 7760.99 ms.
+[mavros_node-1] [INFO] [1792597665.356446844] [mavros.sys]: VER: 1.1: Capabilities         0x000000000000fbef
+[mavros_node-1] [INFO] [1792597665.356461220] [mavros.sys]: VER: 1.1: Flight software:     040507ff (2a3dc4b7)
+[mavros_node-1] [INFO] [1792597665.356469025] [mavros.sys]: VER: 1.1: Middleware software: 00000000 (        )
+[mavros_node-1] [INFO] [1792597665.356475867] [mavros.sys]: VER: 1.1: OS software:         00000000 (        )
+[mavros_node-1] [INFO] [1792597665.356482329] [mavros.sys]: VER: 1.1: Board hardware:      00000000
+[mavros_node-1] [INFO] [1792597665.356488471] [mavros.sys]: VER: 1.1: VID/PID:             0000:0000
+[mavros_node-1] [INFO] [1792597665.356494752] [mavros.sys]: VER: 1.1: UID:                 0000000000000000
+[mavros_node-1] [WARN] [1792597665.356742893] [mavros.time]: TM: RTT too high for timesync: 6659.63 ms.
+[mavros_node-1] [INFO] [1792597665.356968552] [mavros.sys]: VER: 1.1: Capabilities         0x000000000000fbef
+[mavros_node-1] [INFO] [1792597665.356978651] [mavros.sys]: VER: 1.1: Flight software:     040507ff (2a3dc4b7)
+[mavros_node-1] [INFO] [1792597665.356984942] [mavros.sys]: VER: 1.1: Middleware software: 00000000 (        )
+[mavros_node-1] [INFO] [1792597665.356991925] [mavros.sys]: VER: 1.1: OS software:         00000000 (        )
+[mavros_node-1] [INFO] [1792597665.356998457] [mavros.sys]: VER: 1.1: Board hardware:      00000000
+[mavros_node-1] [INFO] [1792597665.357004489] [mavros.sys]: VER: 1.1: VID/PID:             0000:0000
+[mavros_node-1] [INFO] [1792597665.357010640] [mavros.sys]: VER: 1.1: UID:                 0000000000000000
+[mavros_node-1] [WARN] [1792597665.357248982] [mavros.time]: TM: RTT too high for timesync: 5562.36 ms.
+[mavros_node-1] [WARN] [1792597665.357627054] [mavros.time]: TM: RTT too high for timesync: 4460.81 ms.
+[mavros_node-1] [WARN] [1792597665.357803462] [mavros.time]: TM: RTT too high for timesync: 3362.96 ms.
+[mavros_node-1] [WARN] [1792597665.357970973] [mavros.time]: TM: RTT too high for timesync: 2263.05 ms.
+[mavros_node-1] [INFO] [1792597665.358138714] [mavros.sys]: VER: 1.1: Capabilities         0x000000000000fbef
+[mavros_node-1] [INFO] [1792597665.358228491] [mavros.sys]: VER: 1.1: Flight software:     040507ff (2a3dc4b7)
+[mavros_node-1] [INFO] [1792597665.358237036] [mavros.sys]: VER: 1.1: Middleware software: 00000000 (        )
+[mavros_node-1] [INFO] [1792597665.358243078] [mavros.sys]: VER: 1.1: OS software:         00000000 (        )
+[mavros_node-1] [INFO] [1792597665.358249540] [mavros.sys]: VER: 1.1: Board hardware:      00000000
+[mavros_node-1] [INFO] [1792597665.358256533] [mavros.sys]: VER: 1.1: VID/PID:             0000:0000
+[mavros_node-1] [INFO] [1792597665.358263505] [mavros.sys]: VER: 1.1: UID:                 0000000000000000
+[mavros_node-1] [WARN] [1792597665.358342121] [mavros.time]: TM: RTT too high for timesync: 1163.76 ms.
+[mavros_node-1] [INFO] [1792597665.358486820] [mavros.sys]: FCU: ArduCopter V4.5.7 (2a3dc4b7)
+[mavros_node-1] [INFO] [1792597665.358544567] [mavros.sys]: FCU: a3e8c3e070254e57874b394595426325
+[mavros_node-1] [INFO] [1792597665.358581686] [mavros.sys]: FCU: Frame: QUAD/X
+[mavros_node-1] [WARN] [1792597665.455041815] [mavros.cmd.rclcpp]: failed to send response to /mavros/cmd/command (timeout): client will not receive response, at ./src/rmw_response.cpp:154, at ./src/rcl/service.c:314
+[mavros_node-1] [WARN] [1792597670.457319823] [mavros.cmd]: CMD: Command 512 -- ack timeout
+[mavros_node-1] [WARN] [1792597670.557487274] [mavros.cmd.rclcpp]: failed to send response to /mavros/cmd/command (timeout): client will not receive response, at ./src/rmw_response.cpp:154, at ./src/rcl/service.c:314
+[mavros_node-1] [WARN] [1792597675.361154831] [mavros]: CON: Lost connection, HEARTBEAT timed out.
+[mavros_node-1] [WARN] [1792597675.559877336] [mavros.cmd]: CMD: Command 512 -- ack timeout
+[mavros_node-1] [WARN] [1792597675.660116713] [mavros.cmd.rclcpp]: failed to send response to /mavros/cmd/command (timeout): client will not receive response, at ./src/rmw_response.cpp:154, at ./src/rcl/service.c:314
+[mavros_node-1] [WARN] [1792597675.997568891] [mavros.time]: TM: RTT too high for timesync: 9901.91 ms.
+[mavros_node-1] [INFO] [1792597675.997896960] [mavros]: CON: Got HEARTBEAT, connected. FCU: ArduPilot
+[mavros_node-1] [INFO] [1792597675.997983972] [mavros.mission]: WP: detected enable_partial_push: 1
+[mavros_node-1] [WARN] [1792597675.998305418] [mavros.time]: TM: RTT too high for timesync: 8803.50 ms.
+[mavros_node-1] [WARN] [1792597675.998620854] [mavros.time]: TM: RTT too high for timesync: 7703.39 ms.
+[mavros_node-1] [WARN] [1792597675.998918837] [mavros.time]: TM: RTT too high for timesync: 6602.76 ms.
+[mavros_node-1] [WARN] [1792597675.999162960] [mavros.time]: TM: RTT too high for timesync: 5502.66 ms.
+[mavros_node-1] [WARN] [1792597675.999261082] [mavros.cmd]: CMD: Unexpected command 512, result 0
+[mavros_node-1] [INFO] [1792597675.999346120] [mavros.sys]: VER: 1.1: Capabilities         0x000000000000fbef
+[mavros_node-1] [INFO] [1792597675.999377358] [mavros.sys]: VER: 1.1: Flight software:     040507ff (2a3dc4b7)
+[mavros_node-1] [INFO] [1792597675.999384741] [mavros.sys]: VER: 1.1: Middleware software: 00000000 (        )
+[mavros_node-1] [INFO] [1792597675.999391003] [mavros.sys]: VER: 1.1: OS software:         00000000 (        )
+[mavros_node-1] [INFO] [1792597675.999397706] [mavros.sys]: VER: 1.1: Board hardware:      00000000
+[mavros_node-1] [INFO] [1792597675.999403426] [mavros.sys]: VER: 1.1: VID/PID:             0000:0000
+[mavros_node-1] [INFO] [1792597675.999408866] [mavros.sys]: VER: 1.1: UID:                 0000000000000000
+[mavros_node-1] [WARN] [1792597675.999715034] [mavros.time]: TM: RTT too high for timesync: 4402.80 ms.
+[mavros_node-1] [WARN] [1792597675.999970198] [mavros.time]: TM: RTT too high for timesync: 3304.30 ms.
+[mavros_node-1] [WARN] [1792597676.000221164] [mavros.time]: TM: RTT too high for timesync: 2204.33 ms.
+[mavros_node-1] [WARN] [1792597676.000403472] [mavros.time]: TM: RTT too high for timesync: 1101.90 ms.
+[mavros_node-1] [INFO] [1792597676.000523816] [mavros.sys]: FCU: ArduCopter V4.5.7 (2a3dc4b7)
+[mavros_node-1] [INFO] [1792597676.000587684] [mavros.sys]: FCU: a3e8c3e070254e57874b394595426325
+[mavros_node-1] [INFO] [1792597676.000636685] [mavros.sys]: FCU: Frame: QUAD/X
+[mavros_node-1] [WARN] [1792597680.662702602] [mavros.cmd]: CMD: Command 410 -- ack timeout
+[mavros_node-1] [WARN] [1792597685.666911042] [mavros.cmd]: CMD: Command 400 -- ack timeout
+[mavros_node-1] [INFO] [1792597686.000027061] [mavros.home_position]: HP: requesting home position
+[mavros_node-1] [WARN] [1792597686.005698476] [mavros]: CON: Lost connection, HEARTBEAT timed out.
+[mavros_node-1] [INFO] [1792597686.799362469] [mavros]: CON: Got HEARTBEAT, connected. FCU: ArduPilot
+[mavros_node-1] [INFO] [1792597686.799695527] [mavros.mission]: WP: detected enable_partial_push: 1
+[mavros_node-1] [WARN] [1792597686.799922829] [mavros.time]: TM: RTT too high for timesync: 9703.98 ms.
+[mavros_node-1] [WARN] [1792597686.800391789] [mavros.time]: TM: RTT too high for timesync: 8604.27 ms.
+[mavros_node-1] [WARN] [1792597686.800671087] [mavros.time]: TM: RTT too high for timesync: 7504.20 ms.
+[mavros_node-1] [WARN] [1792597686.801256083] [mavros.time]: TM: RTT too high for timesync: 6405.18 ms.
+[mavros_node-1] [WARN] [1792597686.801522888] [mavros.cmd]: CMD: Unexpected command 400, result 0
+[mavros_node-1] [INFO] [1792597686.801983172] [mavros.sys]: FCU: Arming motors
+[mavros_node-1] [WARN] [1792597686.802333502] [mavros.time]: TM: RTT too high for timesync: 5306.10 ms.
+[mavros_node-1] [WARN] [1792597686.802551277] [mavros.time]: TM: RTT too high for timesync: 4206.03 ms.
+[mavros_node-1] [WARN] [1792597686.802826828] [mavros.time]: TM: RTT too high for timesync: 3105.72 ms.
+[mavros_node-1] [WARN] [1792597686.803066883] [mavros.time]: TM: RTT too high for timesync: 2006.48 ms.
+[mavros_node-1] [WARN] [1792597686.803344629] [mavros.time]: TM: RTT too high for timesync: 904.53 ms.
+[mavros_node-1] [INFO] [1792597686.803456977] [mavros.sys]: FCU: ArduCopter V4.5.7 (2a3dc4b7)
+[mavros_node-1] [INFO] [1792597686.803678939] [mavros.sys]: FCU: a3e8c3e070254e57874b394595426325
+[mavros_node-1] [INFO] [1792597686.803951695] [mavros.sys]: FCU: Frame: QUAD/X
+[mavros_node-1] [WARN] [1792597688.817636600] [mavros.sys]: VER: broadcast request timeout, retries left 4
+[mavros_node-1] [WARN] [1792597689.823834002] [mavros.sys]: VER: broadcast request timeout, retries left 3
+[mavros_node-1] [ERROR] [1792597691.806154014] [mavros.sys]: VER: autopilot version service timeout
+[mavros_node-1] [ERROR] [1792597691.806364785] [mavros.sys]: VER: command plugin service call failed!
+[mavros_node-1] [WARN] [1792597691.806378941] [mavros.sys]: VER: unicast request timeout, retries left 2
+[mavros_node-1] [ERROR] [1792597692.816910873] [mavros.sys]: VER: autopilot version service timeout
+[mavros_node-1] [ERROR] [1792597692.817057976] [mavros.sys]: VER: command plugin service call failed!
+[mavros_node-1] [WARN] [1792597692.817069758] [mavros.sys]: VER: unicast request timeout, retries left 1
+[mavros_node-1] [ERROR] [1792597693.831923946] [mavros.sys]: VER: autopilot version service timeout
+[mavros_node-1] [ERROR] [1792597693.832160806] [mavros.sys]: VER: command plugin service call failed!
+[mavros_node-1] [WARN] [1792597693.832188187] [mavros.sys]: VER: unicast request timeout, retries left 0
+[mavros_node-1] [ERROR] [1792597694.845786369] [mavros.sys]: VER: autopilot version service timeout
+[mavros_node-1] [ERROR] [1792597694.846022998] [mavros.sys]: VER: command plugin service call failed!
+[mavros_node-1] [WARN] [1792597694.846047353] [mavros.sys]: VER: your FCU don't support AUTOPILOT_VERSION, switched to default capabilities
+[mavros_node-1] [WARN] [1792597695.807952298] [mavros.cmd]: CMD: Command 512 -- ack timeout
+[mavros_node-1] [WARN] [1792597696.805987031] [mavros]: CON: Lost connection, HEARTBEAT timed out.
+[mavros_node-1] [INFO] [1792597697.397696112] [mavros.geofence]: GF: Using MISSION_ITEM_INT
+[mavros_node-1] [INFO] [1792597697.397838766] [mavros.rallypoint]: RP: Using MISSION_ITEM_INT
+[mavros_node-1] [INFO] [1792597697.397859425] [mavros.mission]: WP: Using MISSION_ITEM_INT
+[mavros_node-1] [INFO] [1792597697.397878801] [mavros.sys]: VER: 1.1: Capabilities         0x000000000000fbef
+[mavros_node-1] [INFO] [1792597697.397896463] [mavros.sys]: VER: 1.1: Flight software:     040507ff (2a3dc4b7)
+[mavros_node-1] [INFO] [1792597697.397906943] [mavros.sys]: VER: 1.1: Middleware software: 00000000 (        )
+[mavros_node-1] [INFO] [1792597697.397915298] [mavros.sys]: VER: 1.1: OS software:         00000000 (        )
+[mavros_node-1] [INFO] [1792597697.397923443] [mavros.sys]: VER: 1.1: Board hardware:      00000000
+[mavros_node-1] [INFO] [1792597697.397933021] [mavros.sys]: VER: 1.1: VID/PID:             0000:0000
+[mavros_node-1] [INFO] [1792597697.397942469] [mavros.sys]: VER: 1.1: UID:                 0000000000000000
+[mavros_node-1] [WARN] [1792597697.398172045] [mavros.time]: TM: RTT too high for timesync: 9100.62 ms.
+[mavros_node-1] [INFO] [1792597697.398341730] [mavros]: CON: Got HEARTBEAT, connected. FCU: ArduPilot
+[mavros_node-1] [INFO] [1792597697.398446063] [mavros.mission]: WP: detected enable_partial_push: 1
+[mavros_node-1] [INFO] [1792597697.398700105] [mavros.sys]: VER: 1.1: Capabilities         0x000000000000fbef
+[mavros_node-1] [INFO] [1792597697.398726574] [mavros.sys]: VER: 1.1: Flight software:     040507ff (2a3dc4b7)
+[mavros_node-1] [INFO] [1792597697.398740419] [mavros.sys]: VER: 1.1: Middleware software: 00000000 (        )
+[mavros_node-1] [INFO] [1792597697.398755628] [mavros.sys]: VER: 1.1: OS software:         00000000 (        )
+[mavros_node-1] [INFO] [1792597697.398770115] [mavros.sys]: VER: 1.1: Board hardware:      00000000
+[mavros_node-1] [INFO] [1792597697.398785854] [mavros.sys]: VER: 1.1: VID/PID:             0000:0000
+[mavros_node-1] [INFO] [1792597697.398798187] [mavros.sys]: VER: 1.1: UID:                 0000000000000000
+[mavros_node-1] [WARN] [1792597697.398993629] [mavros.time]: TM: RTT too high for timesync: 8001.94 ms.
+[mavros_node-1] [WARN] [1792597697.399142055] [mavros.cmd]: CMD: Unexpected command 512, result 0
+[mavros_node-1] [INFO] [1792597697.399228696] [mavros.sys]: VER: 1.1: Capabilities         0x000000000000fbef
+[mavros_node-1] [INFO] [1792597697.399255876] [mavros.sys]: VER: 1.1: Flight software:     040507ff (2a3dc4b7)
+[mavros_node-1] [INFO] [1792597697.399268339] [mavros.sys]: VER: 1.1: Middleware software: 00000000 (        )
+[mavros_node-1] [INFO] [1792597697.399277165] [mavros.sys]: VER: 1.1: OS software:         00000000 (        )
+[mavros_node-1] [INFO] [1792597697.399285461] [mavros.sys]: VER: 1.1: Board hardware:      00000000
+[mavros_node-1] [INFO] [1792597697.399293366] [mavros.sys]: VER: 1.1: VID/PID:             0000:0000
+[mavros_node-1] [INFO] [1792597697.399303104] [mavros.sys]: VER: 1.1: UID:                 0000000000000000
+[mavros_node-1] [WARN] [1792597697.399529083] [mavros.time]: TM: RTT too high for timesync: 6901.77 ms.
+[mavros_node-1] [INFO] [1792597697.399674212] [mavros.sys]: VER: 1.1: Capabilities         0x000000000000fbef
+[mavros_node-1] [INFO] [1792597697.399686836] [mavros.sys]: VER: 1.1: Flight software:     040507ff (2a3dc4b7)
+[mavros_node-1] [INFO] [1792597697.399695612] [mavros.sys]: VER: 1.1: Middleware software: 00000000 (        )
+[mavros_node-1] [INFO] [1792597697.399703517] [mavros.sys]: VER: 1.1: OS software:         00000000 (        )
+[mavros_node-1] [INFO] [1792597697.399711201] [mavros.sys]: VER: 1.1: Board hardware:      00000000
+[mavros_node-1] [INFO] [1792597697.399717833] [mavros.sys]: VER: 1.1: VID/PID:             0000:0000
+[mavros_node-1] [INFO] [1792597697.399725407] [mavros.sys]: VER: 1.1: UID:                 0000000000000000
+[mavros_node-1] [WARN] [1792597697.399988425] [mavros.time]: TM: RTT too high for timesync: 5803.26 ms.
+[mavros_node-1] [WARN] [1792597697.400309571] [mavros.time]: TM: RTT too high for timesync: 4703.04 ms.
+[mavros_node-1] [WARN] [1792597697.400535170] [mavros.time]: TM: RTT too high for timesync: 3603.17 ms.
+[mavros_node-1] [INFO] [1792597697.400746322] [mavros.sys]: FCU: Disarming motors
+[mavros_node-1] [WARN] [1792597697.405390419] [mavros.time]: TM: RTT too high for timesync: 2504.91 ms.
+[mavros_node-1] [INFO] [1792597697.408258591] [mavros.sys]: VER: 1.1: Capabilities         0x000000000000fbef
+[mavros_node-1] [INFO] [1792597697.408375739] [mavros.sys]: VER: 1.1: Flight software:     040507ff (2a3dc4b7)
+[mavros_node-1] [INFO] [1792597697.408390155] [mavros.sys]: VER: 1.1: Middleware software: 00000000 (        )
+[mavros_node-1] [INFO] [1792597697.408396718] [mavros.sys]: VER: 1.1: OS software:         00000000 (        )
+[mavros_node-1] [INFO] [1792597697.408540184] [mavros.sys]: VER: 1.1: Board hardware:      00000000
+[mavros_node-1] [INFO] [1792597697.408548529] [mavros.sys]: VER: 1.1: VID/PID:             0000:0000
+[mavros_node-1] [INFO] [1792597697.408555001] [mavros.sys]: VER: 1.1: UID:                 0000000000000000
+[mavros_node-1] [WARN] [1792597697.408682167] [mavros.time]: TM: RTT too high for timesync: 1411.11 ms.
+[mavros_node-1] [INFO] [1792597697.409006750] [mavros.sys]: FCU: ArduCopter V4.5.7 (2a3dc4b7)
+[mavros_node-1] [INFO] [1792597697.409074565] [mavros.sys]: FCU: a3e8c3e070254e57874b394595426325
+[mavros_node-1] [INFO] [1792597697.409141309] [mavros.sys]: FCU: Frame: QUAD/X
+[mavros_node-1] [WARN] [1792597697.498781486] [mavros.cmd.rclcpp]: failed to send response to /mavros/cmd/command (timeout): client will not receive response, at ./src/rmw_response.cpp:154, at ./src/rcl/service.c:314
+[mavros_node-1] [WARN] [1792597698.101310069] [mavros.time]: TM: RTT too high for timesync: 902.94 ms.
+[mavros_node-1] [WARN] [1792597702.505282250] [mavros.cmd]: CMD: Command 512 -- ack timeout
+[mavros_node-1] [WARN] [1792597702.605471985] [mavros.cmd.rclcpp]: failed to send response to /mavros/cmd/command (timeout): client will not receive response, at ./src/rmw_response.cpp:154, at ./src/rcl/service.c:314
+[mavros_node-1] [INFO] [1792597707.402117623] [mavros.home_position]: HP: requesting home position
+[mavros_node-1] [WARN] [1792597707.413839162] [mavros]: CON: Lost connection, HEARTBEAT timed out.
+[mavros_node-1] [WARN] [1792597707.611592436] [mavros.cmd]: CMD: Command 512 -- ack timeout
+[mavros_node-1] [WARN] [1792597707.711885075] [mavros.cmd.rclcpp]: failed to send response to /mavros/cmd/command (timeout): client will not receive response, at ./src/rmw_response.cpp:154, at ./src/rcl/service.c:314
+[mavros_node-1] [INFO] [1792597708.217041983] [mavros]: CON: Got HEARTBEAT, connected. FCU: ArduPilot
+[mavros_node-1] [INFO] [1792597708.217456402] [mavros.mission]: WP: detected enable_partial_push: 1
+[mavros_node-1] [ERROR] [1792597710.224028707] [mavros.sys]: VER: autopilot version service timeout
+[mavros_node-1] [ERROR] [1792597710.224297095] [mavros.sys]: VER: command plugin service call failed!
+[mavros_node-1] [ERROR] [1792597711.237592063] [mavros.sys]: VER: autopilot version service timeout
+[mavros_node-1] [ERROR] [1792597711.237770363] [mavros.sys]: VER: command plugin service call failed!
+[mavros_node-1] [WARN] [1792597711.237788988] [mavros.sys]: VER: broadcast request timeout, retries left 4
+[mavros_node-1] [ERROR] [1792597712.251023580] [mavros.sys]: VER: autopilot version service timeout
+[mavros_node-1] [ERROR] [1792597712.251184117] [mavros.sys]: VER: command plugin service call failed!
+[mavros_node-1] [WARN] [1792597712.251228249] [mavros.sys]: VER: broadcast request timeout, retries left 3
+[mavros_node-1] [WARN] [1792597712.715979758] [mavros.cmd]: CMD: Command 410 -- ack timeout
+[mavros_node-1] [WARN] [1792597712.821997202] [mavros.cmd.rclcpp]: failed to send response to /mavros/cmd/command (timeout): client will not receive response, at ./src/rmw_response.cpp:154, at ./src/rcl/service.c:314
+[mavros_node-1] [WARN] [1792597712.927120147] [mavros.cmd.rclcpp]: failed to send response to /mavros/cmd/command (timeout): client will not receive response, at ./src/rmw_response.cpp:154, at ./src/rcl/service.c:314
+[mavros_node-1] [WARN] [1792597713.036757948] [mavros.cmd.rclcpp]: failed to send response to /mavros/cmd/command (timeout): client will not receive response, at ./src/rmw_response.cpp:154, at ./src/rcl/service.c:314
+[mavros_node-1] [ERROR] [1792597713.263301112] [mavros.sys]: VER: autopilot version service timeout
+[mavros_node-1] [ERROR] [1792597713.263513205] [mavros.sys]: VER: command plugin service call failed!
+[mavros_node-1] [WARN] [1792597713.263528694] [mavros.sys]: VER: unicast request timeout, retries left 2

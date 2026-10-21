@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+mkdir -p /workspaces/x650-autonomy/.sitl-gazebo
+cd /workspaces/x650-autonomy/.sitl-gazebo
+
+exec /opt/sitl/arducopter \
+    -S -I0 \
+    --model JSON \
+    --speedup 1 \
+    --serial0=udpclient:127.0.0.1:14550 \
+    --home=-35.363261,149.165230,584,353 \
+    --defaults /opt/sitl/params/copter.parm,/opt/sitl/params/gazebo-iris.parm \
+    "$@"

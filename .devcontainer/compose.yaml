@@ -1,4 +1,3 @@
-
 services:
   x650-dev:
     build:
@@ -8,7 +7,19 @@ services:
     init: true
     stdin_open: true
     tty: true
+    shm_size: 512m
+    environment:
+      DISPLAY: ${DISPLAY:?Run prepare-display.sh from a desktop terminal first}
+      XAUTHORITY: /tmp/container.xauth
+      QT_X11_NO_MITSHM: "1"
     volumes:
       - ..:/workspaces/x650-autonomy
+      - /tmp/.X11-unix:/tmp/.X11-unix:ro
+      - ./.Xauthority:/tmp/container.xauth:ro
+      - gazebo-cache:/root/.gz
+    devices:
+      - /dev/dri:/dev/dri
     working_dir: /workspaces/x650-autonomy
     command: sleep infinity
+volumes:
+  gazebo-cache:

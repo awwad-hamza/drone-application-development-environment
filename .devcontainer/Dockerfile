@@ -1,38 +1,66 @@
-
+# syntax=docker/dockerfile:1
 FROM ros:humble-ros-base
-
 ENV DEBIAN_FRONTEND=noninteractive
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
-RUN apt-get update && apt-get install -y \
-    git \
-    python3-colcon-common-extensions \
-    python3-rosdep \
-    python3-vcstool \
-    python3-pip \
-    build-essential \
-    geographiclib-tools \
-    libgeographic-dev \
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ca-certificates curl gnupg git build-essential cmake pkg-config \
+    python3-colcon-common-extensions python3-rosdep \
+    geographiclib-tools ros-humble-mavros ros-humble-mavros-extras \
+    libgl1-mesa-dri libglx-mesa0 \
     && rm -rf /var/lib/apt/lists/*
 
-# Workspace for MAVROS and its dependencies
-WORKDIR /opt/mavros_ws
+# Binary Gazebo packages for Ubuntu 22.04 (the Humble base).
+RUN curl -fsSL --retry 3 https://packages.osrfoundation.org/gazebo.gpg \
+      -o /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg \
+    && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] https://packages.osrfoundation.org/gazebo/ubuntu-stable jammy main" \
+      > /etc/apt/sources.list.d/gazebo-stable.list \
+    && apt-get update && apt-get install -y --no-install-recommends \
+      gz-harmonic libgz-sim8-dev rapidjson-dev libopencv-dev \
+      libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev \
+      gstreamer1.0-plugins-bad gstreamer1.0-libav gstreamer1.0-gl \
+    && rm -rf /var/lib/apt/lists/*
 
-RUN mkdir -p src && \
-    git clone --branch ros2 --recursive \
-    https://github.com/mavlink/mavros.git src/mavros
+RUN geographiclib-get-geoids egm96-5 \
+    && test -s /usr/share/GeographicLib/geoids/egm96-5.pgm
 
-RUN rosdep init 2>/dev/null || true && rosdep update
+# Download an official PREBUILT autopilot. No ArduPilot clone or compilation.
+# This development image is for an Intel/AMD x86_64 PC, not the Raspberry Pi.
+ARG COPTER_VERSION=4.5.7
+RUN test "$(dpkg --print-architecture)" = amd64 \
+    && mkdir -p /opt/sitl/params \
+    && curl -fL --retry 3 \
+      "https://firmware.ardupilot.org/Copter/stable-${COPTER_VERSION}/SITL_x86_64_linux_gnu/arducopter" \
+      -o /opt/sitl/arducopter \
+    && chmod +x /opt/sitl/arducopter \
+    && /opt/sitl/arducopter --help > /opt/sitl/help.txt \
+    && for name in copter gazebo-iris; do \
+      curl -fsSL --retry 3 \
+        "https://raw.githubusercontent.com/ArduPilot/ardupilot/Copter-${COPTER_VERSION}/Tools/autotest/default_params/${name}.parm" \
+        -o "/opt/sitl/params/${name}.parm"; \
+    done
 
-RUN apt-get update && \
-    rosdep install --from-paths src --ignore-src -r -y \
-    --rosdistro humble
+# Only this small plugin project is built from source.
+ENV GZ_VERSION=harmonic
+ARG GAZEBO_PLUGIN_REF=main
+ARG PLUGIN_BUILD_JOBS=2
+RUN git clone --depth 1 --branch "${GAZEBO_PLUGIN_REF}" \
+      https://github.com/ArduPilot/ardupilot_gazebo.git /opt/ardupilot_gazebo \
+    && git -C /opt/ardupilot_gazebo rev-parse HEAD > /opt/ardupilot_gazebo/BUILD_COMMIT \
+    && cmake -S /opt/ardupilot_gazebo -B /opt/ardupilot_gazebo/build \
+      -DCMAKE_BUILD_TYPE=Release -DCMAKE_DISABLE_FIND_PACKAGE_ament_cmake=TRUE \
+    && cmake --build /opt/ardupilot_gazebo/build -j "${PLUGIN_BUILD_JOBS}" \
+    && test -f /opt/ardupilot_gazebo/build/libArduPilotPlugin.so
 
-RUN . /opt/ros/humble/setup.sh && \
-    colcon build --symlink-install
-
-# Source ROS and MAVROS in every interactive shell
-RUN echo 'source /opt/ros/humble/setup.bash' >> /etc/bash.bashrc && \
-    echo 'source /opt/mavros_ws/install/setup.bash' >> /etc/bash.bashrc
-
+ENV GZ_SIM_SYSTEM_PLUGIN_PATH=/opt/ardupilot_gazebo/build
+ENV GZ_SIM_RESOURCE_PATH=/opt/ardupilot_gazebo/models:/opt/ardupilot_gazebo/worlds
+ENV QT_X11_NO_MITSHM=1
+COPY scripts/ /usr/local/bin/
+RUN chmod +x /usr/local/bin/start-sim /usr/local/bin/start-sitl /usr/local/bin/start-gazebo /usr/local/bin/start-mavros \
+    && echo 'source /opt/ros/humble/setup.bash' >> /etc/bash.bashrc \
+    && echo '[ ! -f /workspaces/x650-autonomy/install/setup.bash ] || source /workspaces/x650-autonomy/install/setup.bash' >> /etc/bash.bashrc
 WORKDIR /workspaces/x650-autonomy
 CMD ["bash"]
+
+# Runtime dependency for Gazebo's camera plugin.
+RUN apt-get update && apt-get install -y --no-install-recommends libdebuginfod1 && rm -rf /var/lib/apt/lists/*

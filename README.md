@@ -1,4 +1,4 @@
-# Dockerized Simulation Environment To Test Autonomous Drone Applications Before Applying on Hardware
+# Dockerized Simulation Environment for Drone Application Development
 
 This repository provides a Dockerized simulation environment for testing ROS 2 Humble, ArduPilot, and MAVROS applications before trying them on a real drone. It runs an Iris quadcopter in Gazebo Harmonic with ArduCopter SITL, so developers can work without installing the full toolchain on their host computer and live through the dependency nightmare.
 

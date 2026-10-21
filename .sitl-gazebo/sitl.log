@@ -11,8 +11,6 @@ bind port 5762 for SERIAL1
 SERIAL1 on TCP port 5762
 bind port 5763 for SERIAL2
 SERIAL2 on TCP port 5763
-No JSON sensor message received, resending servos
-No JSON sensor message received, resending servos
 
 JSON received:
 	timestamp
@@ -25,4 +23,11257 @@ JSON received:
 
 validate_structures:513: Validating structures
 Loaded defaults from /opt/sitl/params/copter.parm,/opt/sitl/params/gazebo-iris.parm
-No JSON sensor message received, resending servos
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Detected physics reset
+
+JSON received:
+	timestamp
+	imu: gyro
+	imu: accel_body
+	position
+	quaternion
+	velocity
+	no_time_sync
+
+Exitting

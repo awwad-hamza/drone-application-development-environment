@@ -1,5 +1,6 @@
 # syntax=docker/dockerfile:1
 FROM ros:humble-ros-base
+
 ENV DEBIAN_FRONTEND=noninteractive
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
@@ -24,9 +25,10 @@ RUN curl -fsSL --retry 3 https://packages.osrfoundation.org/gazebo.gpg \
 RUN geographiclib-get-geoids egm96-5 \
     && test -s /usr/share/GeographicLib/geoids/egm96-5.pgm
 
-# Download an official PREBUILT autopilot. No ArduPilot clone or compilation.
-# This development image is for an Intel/AMD x86_64 PC, not the Raspberry Pi.
+# Download an official PREBUILT autopilot.
+# This development image targets an Intel/AMD x86_64 PC.
 ARG COPTER_VERSION=4.5.7
+
 RUN test "$(dpkg --print-architecture)" = amd64 \
     && mkdir -p /opt/sitl/params \
     && curl -fL --retry 3 \
@@ -44,23 +46,45 @@ RUN test "$(dpkg --print-architecture)" = amd64 \
 ENV GZ_VERSION=harmonic
 ARG GAZEBO_PLUGIN_REF=main
 ARG PLUGIN_BUILD_JOBS=2
+
 RUN git clone --depth 1 --branch "${GAZEBO_PLUGIN_REF}" \
       https://github.com/ArduPilot/ardupilot_gazebo.git /opt/ardupilot_gazebo \
-    && git -C /opt/ardupilot_gazebo rev-parse HEAD > /opt/ardupilot_gazebo/BUILD_COMMIT \
-    && cmake -S /opt/ardupilot_gazebo -B /opt/ardupilot_gazebo/build \
-      -DCMAKE_BUILD_TYPE=Release -DCMAKE_DISABLE_FIND_PACKAGE_ament_cmake=TRUE \
-    && cmake --build /opt/ardupilot_gazebo/build -j "${PLUGIN_BUILD_JOBS}" \
+    && git -C /opt/ardupilot_gazebo rev-parse HEAD \
+      > /opt/ardupilot_gazebo/BUILD_COMMIT \
+    && cmake -S /opt/ardupilot_gazebo \
+      -B /opt/ardupilot_gazebo/build \
+      -DCMAKE_BUILD_TYPE=Release \
+      -DCMAKE_DISABLE_FIND_PACKAGE_ament_cmake=TRUE \
+    && cmake --build /opt/ardupilot_gazebo/build \
+      -j "${PLUGIN_BUILD_JOBS}" \
     && test -f /opt/ardupilot_gazebo/build/libArduPilotPlugin.so
 
 ENV GZ_SIM_SYSTEM_PLUGIN_PATH=/opt/ardupilot_gazebo/build
 ENV GZ_SIM_RESOURCE_PATH=/opt/ardupilot_gazebo/models:/opt/ardupilot_gazebo/worlds
 ENV QT_X11_NO_MITSHM=1
+
+# Launcher scripts from .devcontainer/scripts.
 COPY scripts/ /usr/local/bin/
-RUN chmod +x /usr/local/bin/start-sim /usr/local/bin/start-sitl /usr/local/bin/start-gazebo /usr/local/bin/start-mavros \
+
+RUN chmod +x \
+      /usr/local/bin/start-sim \
+      /usr/local/bin/start-sitl \
+      /usr/local/bin/start-gazebo \
+      /usr/local/bin/start-mavros \
     && echo 'source /opt/ros/humble/setup.bash' >> /etc/bash.bashrc \
     && echo '[ ! -f /workspaces/x650-autonomy/install/setup.bash ] || source /workspaces/x650-autonomy/install/setup.bash' >> /etc/bash.bashrc
+
 WORKDIR /workspaces/x650-autonomy
 CMD ["bash"]
 
-# Runtime dependency for Gazebo's camera plugin.
-RUN apt-get update && apt-get install -y --no-install-recommends libdebuginfod1 && rm -rf /var/lib/apt/lists/*
+# Runtime dependencies for the Gazebo camera plugin and keyboard controller.
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+      libdebuginfod1 \
+      python3-tk \
+    && rm -rf /var/lib/apt/lists/*
+
+# Shared shortcuts from the mounted repository:
+# drone-arm, drone-status, drone-rc.
+RUN echo '[ ! -f /workspaces/x650-autonomy/scripts/drone_commands.sh ] || source /workspaces/x650-autonomy/scripts/drone_commands.sh' \
+    >> /etc/bash.bashrc

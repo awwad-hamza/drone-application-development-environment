@@ -17,3 +17,13 @@ drone-status() {
 drone-rc() {
     python3 "$X650_REPO_ROOT/scripts/keyboard_rc.py" "$@"
 }
+
+drone-takeoff-land() {
+    if (( $# > 1 )); then
+        printf 'Usage: drone-takeoff-land [hover-seconds]\n' >&2
+        return 2
+    fi
+
+    python3 "$X650_REPO_ROOT/scripts/takeoff_land.py" \
+        --hover-seconds "${1:-5}"
+}

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -eo pipefail
+
+source /opt/ros/humble/setup.bash
+
+exec ros2 run mavros mavros_node --ros-args \
+    -p fcu_url:='udp://127.0.0.1:14550@' \
+    -p "plugin_allowlist:=['sys_status','command','imu','global_position','local_position']" \
+    "$@"

@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+log_dir=/workspaces/x650-autonomy/.sitl-gazebo
+mkdir -p "$log_dir"
+pids=()
+
+cleanup() {
+    trap - EXIT INT TERM
+    for pid in "${pids[@]}"; do
+        kill "$pid" 2>/dev/null || true
+    done
+    wait || true
+}
+
+trap cleanup EXIT
+trap 'exit 130' INT
+trap 'exit 143' TERM
+
+start-mavros > "$log_dir/mavros.log" 2>&1 &
+pids+=("$!")
+
+start-gazebo > "$log_dir/gazebo.log" 2>&1 &
+pids+=("$!")
+
+start-sitl > "$log_dir/sitl.log" 2>&1 &
+pids+=("$!")
+
+echo 'Launching Gazebo + Iris + ArduPilot + minimal MAVROS over UDP.'
+echo 'Wait for Gazebo and GPS/EKF initialization before flight commands.'
+echo 'Watch live state in another terminal:'
+echo 'ros2 topic echo /mavros/state --qos-durability volatile --qos-depth 1'
+echo "Logs: $log_dir/{gazebo,sitl,mavros}.log"
+echo 'Press Ctrl+C to stop everything.'
+
+status=0
+wait -n "${pids[@]}" || status=$?
+echo "A simulation process exited (status $status); stopping the others." >&2
+echo "Inspect $log_dir/{gazebo,sitl,mavros}.log" >&2
+exit "$status"

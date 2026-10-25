@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
+import argparse
 import math
+from pilot_takeover import PilotTakeover, PilotTakeoverGuard
 import time
 
 import rclpy
@@ -11,10 +13,15 @@ from mavros_msgs.srv import SetMode, CommandBool, CommandTOL, StreamRate
 from std_msgs.msg import Float64
 
 TARGET_ALTITUDE = 5.0
-HOVER_SECONDS = 5.0
+parser = argparse.ArgumentParser()
+parser.add_argument("--hover-seconds", type=float, default=5.0)
+HOVER_SECONDS = parser.parse_args().hover_seconds
+if not math.isfinite(HOVER_SECONDS) or HOVER_SECONDS < 0:
+    parser.error("--hover-seconds must be finite and non-negative")
 
 rclpy.init()
 node = rclpy.create_node("takeoff_hover_land")
+guard = PilotTakeoverGuard(node)
 
 state = None
 altitude = None
@@ -33,6 +40,7 @@ qos = QoSProfile(
 def receive_state(msg):
     global state, state_time
     state = msg
+    guard.observe_state(msg)
     state_time = time.monotonic()
 
 
@@ -69,6 +77,7 @@ def wait_for(condition, timeout, description, check_link=False):
     deadline = time.monotonic() + timeout
     while rclpy.ok():
         rclpy.spin_once(node, timeout_sec=0.1)
+        guard.check()
         if check_link and not telemetry_ok():
             raise RuntimeError("Telemetry stopped or connection was lost")
         if condition():
@@ -79,8 +88,9 @@ def wait_for(condition, timeout, description, check_link=False):
 
 
 def call(client, request):
-    if not client.wait_for_service(timeout_sec=10.0):
-        raise RuntimeError(f"Service unavailable: {client.srv_name}")
+    wait_for(client.service_is_ready, 10.0,
+             f"Service unavailable: {client.srv_name}")
+    guard.check()
 
     future = client.call_async(request)
     wait_for(future.done, 15.0, f"Service timeout: {client.srv_name}")
@@ -91,6 +101,8 @@ def call(client, request):
 
 
 def set_mode(name):
+    if name == "LAND":
+        guard.expect_land()
     return call(
         mode_client,
         SetMode.Request(base_mode=0, custom_mode=name),
@@ -120,6 +132,10 @@ try:
         StreamRate.Request(stream_id=6, message_rate=5, on_off=True),
     )
 
+    print("Requesting RC telemetry at 10 Hz...", flush=True)
+    call(stream_client, StreamRate.Request(
+        stream_id=3, message_rate=10, on_off=True))
+
     print("Waiting for fresh altitude...", flush=True)
     wait_for(
         telemetry_ok, 30.0,
@@ -131,17 +147,20 @@ try:
     if state.armed:
         raise RuntimeError("Already armed; start this script while disarmed")
 
-    print("Switching to GUIDED...", flush=True)
-    set_mode("GUIDED")
+    print("Select 1: GUIDED in drone-rc...", flush=True)
     wait_for(
-        lambda: state.mode == "GUIDED",
-        10.0, "GUIDED mode was not confirmed", check_link=True,
+        guard.ready, 60.0,
+        "No fresh RC CH5 GUIDED selection and confirmed GUIDED mode",
+        check_link=True,
     )
+    guard.begin()
 
     print("Arming...", flush=True)
     arm_attempted = True
     response = call(arm_client, CommandBool.Request(value=True))
     print(f"Arm response: {response}", flush=True)
+    if not response.success:
+        raise RuntimeError(f"Arming rejected: {response}")
     wait_for(
         lambda: state.armed and state.mode == "GUIDED",
         10.0, "Arming was not confirmed", check_link=True,
@@ -164,10 +183,11 @@ try:
         60.0, "Target altitude was not reached", check_link=True,
     )
 
-    print(f"At {altitude:.2f} m. Holding for 5 seconds...", flush=True)
+    print(f"At {altitude:.2f} m. Holding for {HOVER_SECONDS:g} seconds...", flush=True)
     hover_end = time.monotonic() + HOVER_SECONDS
     while time.monotonic() < hover_end:
         rclpy.spin_once(node, timeout_sec=0.1)
+        guard.check()
         if not telemetry_ok() or not state.armed or state.mode != "GUIDED":
             raise RuntimeError("Connection, arming, or flight mode changed")
 
@@ -179,14 +199,22 @@ try:
     )
     print("Finished: landed and disarmed.", flush=True)
 
+except PilotTakeover as error:
+    print(
+        f"Pilot takeover: {error}. Autonomy cancelled; no further commands.",
+        flush=True,
+    )
+    raise SystemExit(0)
+
 except (Exception, KeyboardInterrupt) as error:
     print(f"Stopped: {error}", flush=True)
-    if arm_attempted and rclpy.ok():
+    if arm_attempted and state is not None and state.armed and rclpy.ok():
         try:
+            guard.check()
             print("Requesting LAND as a fallback...", flush=True)
             set_mode("LAND")
         except Exception as landing_error:
-            print(f"LAND could not be confirmed: {landing_error}", flush=True)
+            print(f"Fallback LAND skipped or failed: {landing_error}", flush=True)
     raise SystemExit(1)
 
 finally:

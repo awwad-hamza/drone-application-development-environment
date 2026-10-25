@@ -1,8 +1,8 @@
 QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
-[1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="iris_with_standoffs"]/link[@name="imu_link"]/sensor[@name="imu_sensor"]/gz_frame_id:/opt/ardupilot_gazebo/models/iris_with_standoffs/model.sdf:L250]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
-[1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="gimbal_small_3d"]/link[@name="pitch_link"]/sensor[@name="camera"]/gz_frame_id:/opt/ardupilot_gazebo/models/gimbal_small_3d/model.sdf:L192]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
 amdgpu: os_same_file_description couldn't determine if two DRM fds reference the same file description.
 If they do, bad things may happen!
+[1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="iris_with_standoffs"]/link[@name="imu_link"]/sensor[@name="imu_sensor"]/gz_frame_id:/opt/ardupilot_gazebo/models/iris_with_standoffs/model.sdf:L250]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="gimbal_small_3d"]/link[@name="pitch_link"]/sensor[@name="camera"]/gz_frame_id:/opt/ardupilot_gazebo/models/gimbal_small_3d/model.sdf:L192]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
 [1;32mMsg[0m [NameManager::issueNewName] (Skeleton::BodyNode | iris_with_gimbal::iris_with_standoffs) The name [base_link] is a duplicate, so it has been renamed to [base_link(1)]
 amdgpu: os_same_file_description couldn't determine if two DRM fds reference the same file description.
 If they do, bad things may happen!
@@ -10,3 +10,10 @@ If they do, bad things may happen!
 [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="iris_with_gimbal"]/model[@name="gimbal"]/link[@name="pitch_link"]/sensor[@name="camera"]/gz_frame_id:<data-string>:L775]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
 [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="iris_with_standoffs"]/link[@name="imu_link"]/sensor[@name="imu_sensor"]/gz_frame_id:<data-string>:L254]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
 [1;33mWarning [Utils.cc:132][0m [/sdf/model[@name="gimbal"]/link[@name="pitch_link"]/sensor[@name="camera"]/gz_frame_id:<data-string>:L230]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+/usr/lib/ruby/gz/cmdsim8.rb:201:in `kill': No such process (Errno::ESRCH)
+	from /usr/lib/ruby/gz/cmdsim8.rb:201:in `killProcess'
+	from /usr/lib/ruby/gz/cmdsim8.rb:569:in `handle_signal'
+	from /usr/lib/ruby/gz/cmdsim8.rb:579:in `block in execute'
+	from /usr/lib/ruby/gz/cmdsim8.rb:584:in `wait2'
+	from /usr/lib/ruby/gz/cmdsim8.rb:584:in `execute'
+	from /usr/bin/gz:317:in `<main>'

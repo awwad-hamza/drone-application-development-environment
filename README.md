@@ -64,4 +64,8 @@ drone-arm
 ```
 This sends an arming request; it does not guarantee the vehicle will arm. Check drone-status for `mode: ALT_HOLD` and `armed: true` before increasing throttle. Wait for estimator and GPS initialization first.
 
+Example Script that takes off, hovers for 5 seconds by default, then lands (you can change the hover time as a parameter, example: 30):
+```bash
+drone-takeoff-land 30
+```
  

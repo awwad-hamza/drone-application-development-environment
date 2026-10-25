@@ -198,3 +198,4 @@
 [ERROR] [1792940325.430361443] [mavros.sys]: FCU: PreArm: Need Position Estimate
 [INFO] [1792940337.332243511] [mavros.sys]: FCU: EKF3 IMU1 is using GPS
 [INFO] [1792940337.335327340] [mavros.sys]: FCU: EKF3 IMU0 is using GPS
+[WARN] [1792941538.196051368] [mavros]: CON: Lost connection, HEARTBEAT timed out.

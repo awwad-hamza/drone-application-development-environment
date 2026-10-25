@@ -23,6 +23,7 @@ JSON received:
 	velocity
 	no_time_sync
 
+No JSON sensor message received, resending servos
 validate_structures:513: Validating structures
 Loaded defaults from /opt/sitl/params/copter.parm,/opt/sitl/params/gazebo-iris.parm
 Exitting

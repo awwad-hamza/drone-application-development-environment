@@ -1,10 +1,11 @@
 Reading SITL parameters...
 Confirmed FLTMODE_CH = 5
 Confirmed RC5_OPTION = 0
+Confirmed RC7_OPTION = 31
 Confirmed FLTMODE1 = 4
 Confirmed FLTMODE2 = 2
 Confirmed FLTMODE3 = 2
 Confirmed FLTMODE4 = 2
 Confirmed FLTMODE5 = 2
 Confirmed FLTMODE6 = 2
-Ready: RC CH5 low = GUIDED; other positions = ALT_HOLD.
+Ready: CH5 modes configured; RC7 motor stop: 1000=released, 2000=STOP.

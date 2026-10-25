@@ -147,10 +147,10 @@ try:
     if state.armed:
         raise RuntimeError("Already armed; start this script while disarmed")
 
-    print("Select 1: GUIDED in drone-rc...", flush=True)
+    print("Select 1: GUIDED; release SPACE and reset stop with R if needed...", flush=True)
     wait_for(
         guard.ready, 60.0,
-        "No fresh RC CH5 GUIDED selection and confirmed GUIDED mode",
+        "GUIDED/RC telemetry missing, or motor stop not released/reset",
         check_link=True,
     )
     guard.begin()

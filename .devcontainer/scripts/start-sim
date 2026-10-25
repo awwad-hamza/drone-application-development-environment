@@ -52,7 +52,7 @@ if (( status != 0 )); then
     exit "$status"
 fi
 
-echo 'RC mode mapping configured: 1 = GUIDED, 2 = ALT_HOLD in drone-rc.'
+echo 'RC safety configured: 1=GUIDED, 2=ALT_HOLD, hold SPACE=motor stop.'
 echo 'Wait for GPS/EKF initialization before flight commands.'
 echo "Logs: $log_dir/{gazebo,sitl,mavros,mode_setup}.log"
 echo 'Press Ctrl+C to stop everything.'

@@ -1,195 +1,200 @@
-[INFO] [1792938616.316881474] [mavros_node]: Starting mavros_node container
-[INFO] [1792938616.317032310] [mavros_node]: FCU URL: udp://127.0.0.1:14550@
-[INFO] [1792938616.317042870] [mavros_node]: GCS URL: 
-[INFO] [1792938616.317050254] [mavros_node]: UAS Prefix: /uas1
-[INFO] [1792938616.317057598] [mavros_node]: Starting mavros router node
-[INFO] [1792938616.322847127] [mavros_router]: Built-in SIMD instructions: SSE, SSE2
-[INFO] [1792938616.322898053] [mavros_router]: Built-in MAVLink package version: 2026.9.9
-[INFO] [1792938616.322913543] [mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all csAirLink cubepilot development icarous loweheiser marsh paparazzi standard stemstudios storm32 uAvionix
-[INFO] [1792938616.322921337] [mavros_router]: MAVROS Router started
-[INFO] [1792938616.323026316] [mavros_node]: Starting mavros uas node
-[INFO] [1792938616.353131513] [mavros_router]: Requested to add endpoint: type: 0, url: udp://127.0.0.1:14550@
-[INFO] [1792938616.353208409] [mavros_router]: Endpoint link[1000] created
-[INFO] [1792938616.353437813] [mavros_router]: link[1000] opened successfully
-[INFO] [1792938616.353464855] [mavros_router]: Requested to add endpoint: type: 2, url: /uas1
-[INFO] [1792938616.353482959] [mavros_router]: Endpoint link[1001] created
-[INFO] [1792938616.355162501] [mavros_router]: link[1001] opened successfully
-[INFO] [1792938616.363285371] [mavros]: UAS Executor started, threads: 4
-[INFO] [1792938616.363320848] [mavros]: Plugin actuator_control ignored
-[INFO] [1792938616.363501079] [mavros]: Plugin adsb ignored
-[INFO] [1792938616.363519604] [mavros]: Plugin altitude ignored
-[INFO] [1792938616.363533962] [mavros]: Plugin cam_imu_sync ignored
-[INFO] [1792938616.363549301] [mavros]: Plugin camera ignored
-[INFO] [1792938616.363563387] [mavros]: Plugin cellular_status ignored
-[INFO] [1792938616.379545527] [mavros]: Plugin command created
-[INFO] [1792938616.379628013] [mavros]: Plugin command initialized
-[INFO] [1792938616.379638333] [mavros]: Plugin companion_process_status ignored
-[INFO] [1792938616.379645216] [mavros]: Plugin debug_value ignored
-[INFO] [1792938616.379652029] [mavros]: Plugin distance_sensor ignored
-[INFO] [1792938616.379658200] [mavros]: Plugin esc_status ignored
-[INFO] [1792938616.379664532] [mavros]: Plugin esc_telemetry ignored
-[INFO] [1792938616.379670764] [mavros]: Plugin fake_gps ignored
-[INFO] [1792938616.379677086] [mavros]: Plugin ftp ignored
-[INFO] [1792938616.379683528] [mavros]: Plugin geofence ignored
-[INFO] [1792938616.379690161] [mavros]: Plugin gimbal_control ignored
-[INFO] [1792938616.395659666] [mavros]: Plugin global_position created
-[INFO] [1792938616.395741491] [mavros]: Plugin global_position initialized
-[INFO] [1792938616.395756550] [mavros]: Plugin gps_input ignored
-[INFO] [1792938616.395766058] [mavros]: Plugin gps_rtk ignored
-[INFO] [1792938616.395774163] [mavros]: Plugin gps_status ignored
-[INFO] [1792938616.395783271] [mavros]: Plugin guided_target ignored
-[INFO] [1792938616.395792037] [mavros]: Plugin hil ignored
-[INFO] [1792938616.395800383] [mavros]: Plugin home_position ignored
-[INFO] [1792938616.403640577] [mavros]: Plugin imu created
-[INFO] [1792938616.403726179] [mavros]: Plugin imu initialized
-[INFO] [1792938616.403738212] [mavros]: Plugin landing_target ignored
-[INFO] [1792938616.411232220] [mavros]: Plugin local_position created
-[INFO] [1792938616.411310929] [mavros]: Plugin local_position initialized
-[INFO] [1792938616.411321920] [mavros]: Plugin log_transfer ignored
-[INFO] [1792938616.411329474] [mavros]: Plugin mag_calibration_status ignored
-[INFO] [1792938616.411336097] [mavros]: Plugin manual_control ignored
-[INFO] [1792938616.411342749] [mavros]: Plugin mocap_pose_estimate ignored
-[INFO] [1792938616.411349552] [mavros]: Plugin mount_control ignored
-[INFO] [1792938616.411356165] [mavros]: Plugin nav_controller_output ignored
-[INFO] [1792938616.411362817] [mavros]: Plugin obstacle_distance ignored
-[INFO] [1792938616.411369400] [mavros]: Plugin obstacle_distance_3d ignored
-[INFO] [1792938616.411375822] [mavros]: Plugin odometry ignored
-[INFO] [1792938616.411437739] [mavros]: Plugin onboard_computer_status ignored
-[INFO] [1792938616.411446766] [mavros]: Plugin open_drone_id ignored
-[INFO] [1792938616.411453229] [mavros]: Plugin optical_flow ignored
-[INFO] [1792938616.418437180] [mavros]: Plugin param created
-[INFO] [1792938616.418515769] [mavros]: Plugin param initialized
-[INFO] [1792938616.418527371] [mavros]: Plugin play_tune ignored
-[INFO] [1792938616.418534284] [mavros]: Plugin px4flow ignored
-[INFO] [1792938616.418541017] [mavros]: Plugin rallypoint ignored
-[INFO] [1792938616.418547650] [mavros]: Plugin rangefinder ignored
-[INFO] [1792938616.426673615] [mavros]: Plugin rc_io created
-[INFO] [1792938616.426748837] [mavros]: Plugin rc_io initialized
-[INFO] [1792938616.426759688] [mavros]: Plugin setpoint_accel ignored
-[INFO] [1792938616.426767022] [mavros]: Plugin setpoint_attitude ignored
-[INFO] [1792938616.426773825] [mavros]: Plugin setpoint_position ignored
-[INFO] [1792938616.426780457] [mavros]: Plugin setpoint_raw ignored
-[INFO] [1792938616.426787070] [mavros]: Plugin setpoint_trajectory ignored
-[INFO] [1792938616.426793803] [mavros]: Plugin setpoint_velocity ignored
-[INFO] [1792938616.426800355] [mavros]: Plugin sim_state ignored
-[INFO] [1792938616.441548617] [mavros]: Plugin sys_status created
-[INFO] [1792938616.441692950] [mavros]: Plugin sys_status initialized
-[INFO] [1792938616.441716956] [mavros]: Plugin sys_time ignored
-[INFO] [1792938616.441724209] [mavros]: Plugin tdr_radio ignored
-[INFO] [1792938616.441731443] [mavros]: Plugin terrain ignored
-[INFO] [1792938616.441738406] [mavros]: Plugin trajectory ignored
-[INFO] [1792938616.441745179] [mavros]: Plugin tunnel ignored
-[INFO] [1792938616.441752022] [mavros]: Plugin vfr_hud ignored
-[INFO] [1792938616.441758755] [mavros]: Plugin vibration ignored
-[INFO] [1792938616.441765047] [mavros]: Plugin vision_pose ignored
-[INFO] [1792938616.441771559] [mavros]: Plugin vision_speed ignored
-[INFO] [1792938616.441778182] [mavros]: Plugin waypoint ignored
-[INFO] [1792938616.441784584] [mavros]: Plugin wheel_odometry ignored
-[INFO] [1792938616.441791998] [mavros]: Plugin wind_estimation ignored
-[INFO] [1792938616.443735460] [mavros]: Built-in SIMD instructions: SSE, SSE2
-[INFO] [1792938616.443816133] [mavros]: Built-in MAVLink package version: 2026.9.9
-[INFO] [1792938616.443825150] [mavros]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all csAirLink cubepilot development icarous loweheiser marsh paparazzi standard stemstudios storm32 uAvionix
-[INFO] [1792938616.443832554] [mavros]: MAVROS UAS via /uas1 started. MY ID 1.191, TARGET ID 1.1
-[INFO] [1792938616.520148932] [mavros_router]: link[1001] detected remote address 1.191
-[WARN] [1792938618.443582233] [mavros.sys]: VER: broadcast request timeout, retries left 4
-[WARN] [1792938619.445407298] [mavros.sys]: VER: broadcast request timeout, retries left 3
-[INFO] [1792938619.648128592] [mavros_router]: link[1000] detected remote address 1.1
-[WARN] [1792938619.648351424] [mavros.cmd]: CMD: Unexpected command 512, result 0
-[INFO] [1792938619.892560983] [mavros.sys]: FCU: Calibrating barometer
-[WARN] [1792938620.444953965] [mavros.sys]: VER: unicast request timeout, retries left 2
-[INFO] [1792938620.816025558] [mavros]: CON: Got HEARTBEAT, connected. FCU: ArduPilot
-[INFO] [1792938620.818639501] [mavros.param]: PR: start force pull
-[INFO] [1792938620.818851302] [mavros.sys]: VER: 1.1: Capabilities         0x000000000000fbef
-[INFO] [1792938620.818889594] [mavros.sys]: VER: 1.1: Flight software:     040507ff (2a3dc4b7)
-[INFO] [1792938620.818903411] [mavros.sys]: VER: 1.1: Middleware software: 00000000 (        )
-[INFO] [1792938620.818911286] [mavros.sys]: VER: 1.1: OS software:         00000000 (        )
-[INFO] [1792938620.818918229] [mavros.sys]: VER: 1.1: Board hardware:      00000000
-[INFO] [1792938620.818964887] [mavros.sys]: VER: 1.1: VID/PID:             0000:0000
-[INFO] [1792938620.818975908] [mavros.sys]: VER: 1.1: UID:                 0000000000000000
-[INFO] [1792938620.837005768] [mavros.sys]: FCU: ArduCopter V4.5.7 (2a3dc4b7)
-[INFO] [1792938620.838327382] [mavros.sys]: FCU: a3e8c3e070254e57874b394595426325
-[INFO] [1792938620.839349479] [mavros.sys]: FCU: Frame: QUAD/X
-[INFO] [1792938622.629386603] [mavros.sys]: FCU: Barometer 1 calibration complete
-[INFO] [1792938622.632031093] [mavros.sys]: FCU: Barometer 2 calibration complete
-[INFO] [1792938622.636138235] [mavros.sys]: FCU: ArduPilot Ready
-[INFO] [1792938622.636282849] [mavros.sys]: FCU: AHRS: DCM active
-[INFO] [1792938623.060557470] [mavros.sys]: FCU: RC7: SaveWaypoint LOW
-[INFO] [1792938623.061767743] [mavros.sys]: FCU: RC8: PrecisionLoiter MIDDLE
-[INFO] [1792938623.104008406] [mavros.param]: PR: parameters list received
-[INFO] [1792938624.738749788] [mavros.sys]: FCU: EKF3 IMU0 initialised
-[INFO] [1792938624.741817671] [mavros.sys]: FCU: EKF3 IMU1 initialised
-[INFO] [1792938625.077730846] [mavros.sys]: FCU: AHRS: EKF3 active
-[INFO] [1792938626.235495577] [mavros.sys]: FCU: EKF3 IMU0 tilt alignment complete
-[INFO] [1792938626.235738547] [mavros.sys]: FCU: EKF3 IMU1 tilt alignment complete
-[INFO] [1792938626.335597827] [mavros.sys]: FCU: EKF3 IMU0 MAG0 initial yaw alignment complete
-[INFO] [1792938626.435925053] [mavros.sys]: FCU: EKF3 IMU1 MAG0 initial yaw alignment complete
-[INFO] [1792938628.747678998] [mavros.rc]: RC_CHANNELS message detected!
-[ERROR] [1792938628.856007819] [mavros.sys]: FCU: Arm: Accels inconsistent
-[ERROR] [1792938629.018106604] [mavros.sys]: FCU: Arm: AHRS: waiting for home
-[ERROR] [1792938629.020512262] [mavros.sys]: FCU: Arm: Accels inconsistent
-[ERROR] [1792938629.251783798] [mavros.sys]: FCU: Arm: AHRS: waiting for home
-[INFO] [1792938630.941349737] [mavros.sys]: FCU: GPS 1: detected as u-blox at 230400 baud
-[ERROR] [1792938632.297365705] [mavros.sys]: FCU: Arm: Accels inconsistent
-[ERROR] [1792938632.298995393] [mavros.sys]: FCU: Arm: AHRS: waiting for home
-[WARN] [1792938632.299120701] [mavros.cmd]: CMD: Unexpected command 400, result 4
-[ERROR] [1792938632.299201734] [mavros.sys]: FCU: Arm: Accels inconsistent
-[ERROR] [1792938632.299271667] [mavros.sys]: FCU: Arm: AHRS: waiting for home
-[INFO] [1792938642.952460631] [mavros.sys]: FCU: EKF3 IMU1 origin set
-[INFO] [1792938643.167053755] [mavros.sys]: FCU: Field Elevation Set: 584m
-[INFO] [1792938643.167323116] [mavros.sys]: FCU: EKF3 IMU0 origin set
-[ERROR] [1792938656.739498288] [mavros.sys]: FCU: PreArm: Need Position Estimate
-[INFO] [1792938669.598318877] [mavros.sys]: FCU: EKF3 IMU1 is using GPS
-[INFO] [1792938669.598653381] [mavros.sys]: FCU: EKF3 IMU0 is using GPS
-[INFO] [1792938696.242402279] [mavros.sys]: FCU: Arming motors
-[WARN] [1792938696.242632345] [mavros.cmd]: CMD: Unexpected command 400, result 0
-[INFO] [1792938702.615860738] [mavros.sys]: FCU: EKF3 IMU0 MAG0 in-flight yaw alignment complete
-[INFO] [1792938702.707736033] [mavros.sys]: FCU: EKF3 IMU1 MAG0 in-flight yaw alignment complete
-[INFO] [1792938729.828504361] [rclcpp]: signal_handler(SIGINT/SIGTERM)
-[WARN] [1792938729.829604637] [mavros]: UAS Executor terminated
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        [WARN] [1792938619.648551994] [mavros.cmd]: CMD: Unexpected command 512, result 0
-[INFO] [1792938619.892642928] [mavros.sys]: FCU: Calibrating barometer
-[INFO] [1792938620.816193436] [mavros]: CON: Got HEARTBEAT, connected. FCU: ArduPilot
-[INFO] [1792938620.818750741] [mavros.sys]: VER: 1.1: Capabilities         0x000000000000fbef
-[INFO] [1792938620.818807098] [mavros.sys]: VER: 1.1: Flight software:     040507ff (2a3dc4b7)
-[INFO] [1792938620.818832556] [mavros.sys]: VER: 1.1: Middleware software: 00000000 (        )
-[INFO] [1792938620.818855330] [mavros.sys]: VER: 1.1: OS software:         00000000 (        )
-[INFO] [1792938620.818871881] [mavros.sys]: VER: 1.1: Board hardware:      00000000
-[INFO] [1792938620.818884926] [mavros.sys]: VER: 1.1: VID/PID:             0000:0000
-[INFO] [1792938620.818896718] [mavros.sys]: VER: 1.1: UID:                 0000000000000000
-[INFO] [1792938620.837200177] [mavros.sys]: FCU: ArduCopter V4.5.7 (2a3dc4b7)
-[INFO] [1792938620.838463059] [mavros.sys]: FCU: a3e8c3e070254e57874b394595426325
-[INFO] [1792938620.839481198] [mavros.sys]: FCU: Frame: QUAD/X
-[INFO] [1792938622.626036235] [mavros.sys]: FCU: Barometer 1 calibration complete
-[INFO] [1792938622.627742878] [mavros.sys]: FCU: Barometer 2 calibration complete
-[INFO] [1792938622.635449400] [mavros.sys]: FCU: ArduPilot Ready
-[INFO] [1792938622.635715885] [mavros.sys]: FCU: AHRS: DCM active
-[INFO] [1792938623.059527929] [mavros.sys]: FCU: RC7: SaveWaypoint LOW
-[INFO] [1792938623.059857143] [mavros.sys]: FCU: RC8: PrecisionLoiter MIDDLE
-[INFO] [1792938624.739210841] [mavros.sys]: FCU: EKF3 IMU0 initialised
-[INFO] [1792938624.739600309] [mavros.sys]: FCU: EKF3 IMU1 initialised
-[INFO] [1792938624.742045462] [mavros.sys]: FCU: AHRS: EKF3 active
-[INFO] [1792938626.235307340] [mavros.sys]: FCU: EKF3 IMU0 tilt alignment complete
-[INFO] [1792938626.235585147] [mavros.sys]: FCU: EKF3 IMU1 tilt alignment complete
-[INFO] [1792938626.335841248] [mavros.sys]: FCU: EKF3 IMU0 MAG0 initial yaw alignment complete
-[INFO] [1792938626.336060734] [mavros.sys]: FCU: EKF3 IMU1 MAG0 initial yaw alignment complete
-[ERROR] [1792938628.854480806] [mavros.sys]: FCU: Arm: Accels inconsistent
-[ERROR] [1792938628.856179023] [mavros.sys]: FCU: Arm: AHRS: waiting for home
-[ERROR] [1792938628.856561298] [mavros.sys]: FCU: Arm: Accels inconsistent
-[ERROR] [1792938628.858254807] [mavros.sys]: FCU: Arm: AHRS: waiting for home
-[INFO] [1792938630.924456427] [mavros.sys]: FCU: GPS 1: detected as u-blox at 230400 baud
-[ERROR] [1792938632.293348894] [mavros.sys]: FCU: Arm: Accels inconsistent
-[ERROR] [1792938632.294274708] [mavros.sys]: FCU: Arm: AHRS: waiting for home
-[WARN] [1792938632.297531459] [mavros.cmd]: CMD: Unexpected command 400, result 4
-[ERROR] [1792938632.297831398] [mavros.sys]: FCU: Arm: Accels inconsistent
-[ERROR] [1792938632.299213076] [mavros.sys]: FCU: Arm: AHRS: waiting for home
-[INFO] [1792938642.951651828] [mavros.sys]: FCU: EKF3 IMU1 origin set
-[INFO] [1792938643.029265710] [mavros.sys]: FCU: Field Elevation Set: 584m
-[INFO] [1792938643.160595196] [mavros.sys]: FCU: EKF3 IMU0 origin set
-[ERROR] [1792938656.689973645] [mavros.sys]: FCU: PreArm: Need Position Estimate
-[INFO] [1792938669.594258601] [mavros.sys]: FCU: EKF3 IMU1 is using GPS
-[INFO] [1792938669.598290483] [mavros.sys]: FCU: EKF3 IMU0 is using GPS
-[INFO] [1792938696.176946271] [mavros.sys]: FCU: Arming motors
-[WARN] [1792938696.178486731] [mavros.cmd]: CMD: Unexpected command 400, result 0
-[INFO] [1792938702.616100883] [mavros.sys]: FCU: EKF3 IMU0 MAG0 in-flight yaw alignment complete
-[INFO] [1792938702.616363140] [mavros.sys]: FCU: EKF3 IMU1 MAG0 in-flight yaw alignment complete
-[WARN] [1792938738.829865366] [mavros]: CON: Lost connection, HEARTBEAT timed out.
+[INFO] [1792940285.261371279] [mavros_node]: Starting mavros_node container
+[INFO] [1792940285.261528357] [mavros_node]: FCU URL: udp://127.0.0.1:14550@
+[INFO] [1792940285.261539488] [mavros_node]: GCS URL: 
+[INFO] [1792940285.261545289] [mavros_node]: UAS Prefix: /uas1
+[INFO] [1792940285.261551420] [mavros_node]: Starting mavros router node
+[INFO] [1792940285.269572729] [mavros_router]: Built-in SIMD instructions: SSE, SSE2
+[INFO] [1792940285.269641315] [mavros_router]: Built-in MAVLink package version: 2026.9.9
+[INFO] [1792940285.269654630] [mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all csAirLink cubepilot development icarous loweheiser marsh paparazzi standard stemstudios storm32 uAvionix
+[INFO] [1792940285.269661412] [mavros_router]: MAVROS Router started
+[INFO] [1792940285.269866870] [mavros_node]: Starting mavros uas node
+[INFO] [1792940285.301455506] [mavros_router]: Requested to add endpoint: type: 0, url: udp://127.0.0.1:14550@
+[INFO] [1792940285.301550581] [mavros_router]: Endpoint link[1000] created
+[INFO] [1792940285.301780754] [mavros_router]: link[1000] opened successfully
+[INFO] [1792940285.301795911] [mavros_router]: Requested to add endpoint: type: 2, url: /uas1
+[INFO] [1792940285.301807503] [mavros_router]: Endpoint link[1001] created
+[INFO] [1792940285.303492387] [mavros_router]: link[1001] opened successfully
+[INFO] [1792940285.311456030] [mavros]: UAS Executor started, threads: 4
+[INFO] [1792940285.311496455] [mavros]: Plugin actuator_control ignored
+[INFO] [1792940285.311685392] [mavros]: Plugin adsb ignored
+[INFO] [1792940285.311700469] [mavros]: Plugin altitude ignored
+[INFO] [1792940285.311715116] [mavros]: Plugin cam_imu_sync ignored
+[INFO] [1792940285.311728751] [mavros]: Plugin camera ignored
+[INFO] [1792940285.311742286] [mavros]: Plugin cellular_status ignored
+[INFO] [1792940285.327346781] [mavros]: Plugin command created
+[INFO] [1792940285.327436636] [mavros]: Plugin command initialized
+[INFO] [1792940285.327449449] [mavros]: Plugin companion_process_status ignored
+[INFO] [1792940285.327456853] [mavros]: Plugin debug_value ignored
+[INFO] [1792940285.327463255] [mavros]: Plugin distance_sensor ignored
+[INFO] [1792940285.327469737] [mavros]: Plugin esc_status ignored
+[INFO] [1792940285.327476479] [mavros]: Plugin esc_telemetry ignored
+[INFO] [1792940285.327482510] [mavros]: Plugin fake_gps ignored
+[INFO] [1792940285.327488511] [mavros]: Plugin ftp ignored
+[INFO] [1792940285.327494492] [mavros]: Plugin geofence ignored
+[INFO] [1792940285.327501385] [mavros]: Plugin gimbal_control ignored
+[INFO] [1792940285.337815515] [mavros]: Plugin global_position created
+[INFO] [1792940285.337912282] [mavros]: Plugin global_position initialized
+[INFO] [1792940285.337923453] [mavros]: Plugin gps_input ignored
+[INFO] [1792940285.337930536] [mavros]: Plugin gps_rtk ignored
+[INFO] [1792940285.337936787] [mavros]: Plugin gps_status ignored
+[INFO] [1792940285.337943249] [mavros]: Plugin guided_target ignored
+[INFO] [1792940285.337949861] [mavros]: Plugin hil ignored
+[INFO] [1792940285.337956133] [mavros]: Plugin home_position ignored
+[INFO] [1792940285.344885447] [mavros]: Plugin imu created
+[INFO] [1792940285.344956418] [mavros]: Plugin imu initialized
+[INFO] [1792940285.344966827] [mavros]: Plugin landing_target ignored
+[INFO] [1792940285.351685164] [mavros]: Plugin local_position created
+[INFO] [1792940285.351750524] [mavros]: Plugin local_position initialized
+[INFO] [1792940285.351761264] [mavros]: Plugin log_transfer ignored
+[INFO] [1792940285.351768377] [mavros]: Plugin mag_calibration_status ignored
+[INFO] [1792940285.351774798] [mavros]: Plugin manual_control ignored
+[INFO] [1792940285.351781140] [mavros]: Plugin mocap_pose_estimate ignored
+[INFO] [1792940285.351787502] [mavros]: Plugin mount_control ignored
+[INFO] [1792940285.351793653] [mavros]: Plugin nav_controller_output ignored
+[INFO] [1792940285.351799985] [mavros]: Plugin obstacle_distance ignored
+[INFO] [1792940285.351806186] [mavros]: Plugin obstacle_distance_3d ignored
+[INFO] [1792940285.351812808] [mavros]: Plugin odometry ignored
+[INFO] [1792940285.351860466] [mavros]: Plugin onboard_computer_status ignored
+[INFO] [1792940285.351868170] [mavros]: Plugin open_drone_id ignored
+[INFO] [1792940285.351874612] [mavros]: Plugin optical_flow ignored
+[INFO] [1792940285.357716589] [mavros]: Plugin param created
+[INFO] [1792940285.357788882] [mavros]: Plugin param initialized
+[INFO] [1792940285.357798891] [mavros]: Plugin play_tune ignored
+[INFO] [1792940285.357805843] [mavros]: Plugin px4flow ignored
+[INFO] [1792940285.357812015] [mavros]: Plugin rallypoint ignored
+[INFO] [1792940285.357818426] [mavros]: Plugin rangefinder ignored
+[INFO] [1792940285.363543570] [mavros]: Plugin rc_io created
+[INFO] [1792940285.363612356] [mavros]: Plugin rc_io initialized
+[INFO] [1792940285.363623086] [mavros]: Plugin setpoint_accel ignored
+[INFO] [1792940285.363629477] [mavros]: Plugin setpoint_attitude ignored
+[INFO] [1792940285.363636140] [mavros]: Plugin setpoint_position ignored
+[INFO] [1792940285.363642481] [mavros]: Plugin setpoint_raw ignored
+[INFO] [1792940285.363648803] [mavros]: Plugin setpoint_trajectory ignored
+[INFO] [1792940285.363655535] [mavros]: Plugin setpoint_velocity ignored
+[INFO] [1792940285.363661907] [mavros]: Plugin sim_state ignored
+[INFO] [1792940285.374020018] [mavros]: Plugin sys_status created
+[INFO] [1792940285.374116154] [mavros]: Plugin sys_status initialized
+[INFO] [1792940285.374127846] [mavros]: Plugin sys_time ignored
+[INFO] [1792940285.374134398] [mavros]: Plugin tdr_radio ignored
+[INFO] [1792940285.374141290] [mavros]: Plugin terrain ignored
+[INFO] [1792940285.374147692] [mavros]: Plugin trajectory ignored
+[INFO] [1792940285.374154014] [mavros]: Plugin tunnel ignored
+[INFO] [1792940285.374160105] [mavros]: Plugin vfr_hud ignored
+[INFO] [1792940285.374166336] [mavros]: Plugin vibration ignored
+[INFO] [1792940285.374172768] [mavros]: Plugin vision_pose ignored
+[INFO] [1792940285.374179060] [mavros]: Plugin vision_speed ignored
+[INFO] [1792940285.374185391] [mavros]: Plugin waypoint ignored
+[INFO] [1792940285.374191983] [mavros]: Plugin wheel_odometry ignored
+[INFO] [1792940285.374198295] [mavros]: Plugin wind_estimation ignored
+[INFO] [1792940285.375239617] [mavros]: Built-in SIMD instructions: SSE, SSE2
+[INFO] [1792940285.375289639] [mavros]: Built-in MAVLink package version: 2026.9.9
+[INFO] [1792940285.375296832] [mavros]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all csAirLink cubepilot development icarous loweheiser marsh paparazzi standard stemstudios storm32 uAvionix
+[INFO] [1792940285.375303504] [mavros]: MAVROS UAS via /uas1 started. MY ID 1.191, TARGET ID 1.1
+[INFO] [1792940286.369724624] [mavros_router]: link[1001] detected remote address 1.191
+[WARN] [1792940287.375440874] [mavros.sys]: VER: broadcast request timeout, retries left 4
+[WARN] [1792940288.379239580] [mavros.sys]: VER: broadcast request timeout, retries left 3
+[INFO] [1792940288.777052838] [mavros_router]: link[1000] detected remote address 1.1
+[WARN] [1792940288.778365299] [mavros.cmd]: CMD: Unexpected command 512, result 0
+[INFO] [1792940289.025975501] [mavros.sys]: FCU: Calibrating barometer
+[WARN] [1792940289.377583805] [mavros.sys]: VER: unicast request timeout, retries left 2
+[INFO] [1792940290.050633740] [mavros]: CON: Got HEARTBEAT, connected. FCU: ArduPilot
+[INFO] [1792940290.053625295] [mavros.param]: PR: start force pull
+[INFO] [1792940290.053835962] [mavros.sys]: VER: 1.1: Capabilities         0x000000000000fbef
+[INFO] [1792940290.053891745] [mavros.sys]: VER: 1.1: Flight software:     040507ff (2a3dc4b7)
+[INFO] [1792940290.053904768] [mavros.sys]: VER: 1.1: Middleware software: 00000000 (        )
+[INFO] [1792940290.053928292] [mavros.sys]: VER: 1.1: OS software:         00000000 (        )
+[INFO] [1792940290.053941005] [mavros.sys]: VER: 1.1: Board hardware:      00000000
+[INFO] [1792940290.053949621] [mavros.sys]: VER: 1.1: VID/PID:             0000:0000
+[INFO] [1792940290.053958327] [mavros.sys]: VER: 1.1: UID:                 0000000000000000
+[INFO] [1792940290.071900324] [mavros.sys]: FCU: ArduCopter V4.5.7 (2a3dc4b7)
+[INFO] [1792940290.072726101] [mavros.sys]: FCU: a3e8c3e070254e57874b394595426325
+[INFO] [1792940290.172284214] [mavros.sys]: FCU: Frame: QUAD/X
+[INFO] [1792940291.425278600] [mavros.sys]: FCU: Barometer 1 calibration complete
+[INFO] [1792940291.426258590] [mavros.sys]: FCU: Barometer 2 calibration complete
+[INFO] [1792940291.430450972] [mavros.sys]: FCU: ArduPilot Ready
+[INFO] [1792940291.430577634] [mavros.sys]: FCU: AHRS: DCM active
+[INFO] [1792940291.923027242] [mavros.sys]: FCU: RC7: MotorEStop LOW
+[INFO] [1792940291.923447264] [mavros.sys]: FCU: RC8: PrecisionLoiter MIDDLE
+[INFO] [1792940292.056480676] [mavros.param]: PR: parameters list received
+[INFO] [1792940292.064792476] [mavros.rc]: RC_CHANNELS message detected!
+[ERROR] [1792940292.178004553] [mavros.sys]: FCU: Arm: Accels inconsistent
+[ERROR] [1792940292.180216697] [mavros.sys]: FCU: Arm: EKF attitude is bad
+[ERROR] [1792940292.183417377] [mavros.sys]: FCU: Arm: AHRS: waiting for home
+[ERROR] [1792940292.185479295] [mavros.sys]: FCU: Arm: Need Alt Estimate
+[ERROR] [1792940292.189432196] [mavros.sys]: FCU: Arm: Accels inconsistent
+[ERROR] [1792940292.189722650] [mavros.sys]: FCU: Arm: EKF attitude is bad
+[ERROR] [1792940292.244106005] [mavros.sys]: FCU: Arm: AHRS: waiting for home
+[INFO] [1792940294.369860310] [mavros.sys]: FCU: EKF3 IMU0 initialised
+[INFO] [1792940294.370030934] [mavros.sys]: FCU: EKF3 IMU1 initialised
+[INFO] [1792940294.370093228] [mavros.sys]: FCU: AHRS: EKF3 active
+[INFO] [1792940295.613784012] [mavros.sys]: FCU: EKF3 IMU0 tilt alignment complete
+[INFO] [1792940295.613982607] [mavros.sys]: FCU: EKF3 IMU1 tilt alignment complete
+[INFO] [1792940295.718641976] [mavros.sys]: FCU: EKF3 IMU0 MAG0 initial yaw alignment complete
+[INFO] [1792940295.730765521] [mavros.sys]: FCU: EKF3 IMU1 MAG0 initial yaw alignment complete
+[INFO] [1792940300.200857155] [mavros.sys]: FCU: GPS 1: detected as u-blox at 230400 baud
+[ERROR] [1792940302.560047255] [mavros.sys]: FCU: Arm: Accels inconsistent
+[ERROR] [1792940302.579028415] [mavros.sys]: FCU: Arm: AHRS: waiting for home
+[WARN] [1792940302.579480376] [mavros.cmd]: CMD: Unexpected command 400, result 4
+[ERROR] [1792940302.579933529] [mavros.sys]: FCU: Arm: Accels inconsistent
+[ERROR] [1792940302.580099624] [mavros.sys]: FCU: Arm: AHRS: waiting for home
+[ERROR] [1792940309.844420688] [mavros.sys]: FCU: Arm: Gyros inconsistent
+[ERROR] [1792940309.953088520] [mavros.sys]: FCU: Arm: AHRS: waiting for home
+[ERROR] [1792940309.953492432] [mavros.sys]: FCU: Arm: Gyros inconsistent
+[ERROR] [1792940309.953581917] [mavros.sys]: FCU: Arm: AHRS: waiting for home
+[INFO] [1792940312.546911439] [mavros.sys]: FCU: EKF3 IMU1 origin set
+[INFO] [1792940312.560709856] [mavros.sys]: FCU: Field Elevation Set: 584m
+[INFO] [1792940312.796454744] [mavros.sys]: FCU: EKF3 IMU0 origin set
+[ERROR] [1792940325.430187042] [mavros.sys]: FCU: PreArm: Need Position Estimate
+[INFO] [1792940337.335262321] [mavros.sys]: FCU: EKF3 IMU1 is using GPS
+[INFO] [1792940337.335444466] [mavros.sys]: FCU: EKF3 IMU0 is using GPS
+[INFO] [1792941529.234583083] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[WARN] [1792941529.235236686] [mavros]: UAS Executor terminated
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  [WARN] [1792940288.777892350] [mavros.cmd]: CMD: Unexpected command 512, result 0
+[INFO] [1792940289.025290503] [mavros.sys]: FCU: Calibrating barometer
+[INFO] [1792940290.050974696] [mavros]: CON: Got HEARTBEAT, connected. FCU: ArduPilot
+[INFO] [1792940290.053070095] [mavros.sys]: VER: 1.1: Capabilities         0x000000000000fbef
+[INFO] [1792940290.053153008] [mavros.sys]: VER: 1.1: Flight software:     040507ff (2a3dc4b7)
+[INFO] [1792940290.053166242] [mavros.sys]: VER: 1.1: Middleware software: 00000000 (        )
+[INFO] [1792940290.053175970] [mavros.sys]: VER: 1.1: OS software:         00000000 (        )
+[INFO] [1792940290.053185988] [mavros.sys]: VER: 1.1: Board hardware:      00000000
+[INFO] [1792940290.053195896] [mavros.sys]: VER: 1.1: VID/PID:             0000:0000
+[INFO] [1792940290.053207618] [mavros.sys]: VER: 1.1: UID:                 0000000000000000
+[INFO] [1792940290.072250206] [mavros.sys]: FCU: ArduCopter V4.5.7 (2a3dc4b7)
+[INFO] [1792940290.072833488] [mavros.sys]: FCU: a3e8c3e070254e57874b394595426325
+[INFO] [1792940290.073617388] [mavros.sys]: FCU: Frame: QUAD/X
+[INFO] [1792940291.424234693] [mavros.sys]: FCU: Barometer 1 calibration complete
+[INFO] [1792940291.425376460] [mavros.sys]: FCU: Barometer 2 calibration complete
+[INFO] [1792940291.430466671] [mavros.sys]: FCU: ArduPilot Ready
+[INFO] [1792940291.430624420] [mavros.sys]: FCU: AHRS: DCM active
+[INFO] [1792940291.920422608] [mavros.sys]: FCU: RC7: MotorEStop LOW
+[INFO] [1792940291.920700458] [mavros.sys]: FCU: RC8: PrecisionLoiter MIDDLE
+[ERROR] [1792940292.178136836] [mavros.sys]: FCU: Arm: Accels inconsistent
+[ERROR] [1792940292.180847486] [mavros.sys]: FCU: Arm: EKF attitude is bad
+[ERROR] [1792940292.183733538] [mavros.sys]: FCU: Arm: AHRS: waiting for home
+[ERROR] [1792940292.185679482] [mavros.sys]: FCU: Arm: Need Alt Estimate
+[ERROR] [1792940292.185991405] [mavros.sys]: FCU: Arm: Accels inconsistent
+[ERROR] [1792940292.187723317] [mavros.sys]: FCU: Arm: EKF attitude is bad
+[ERROR] [1792940292.189664213] [mavros.sys]: FCU: Arm: AHRS: waiting for home
+[INFO] [1792940294.104188078] [mavros.sys]: FCU: EKF3 IMU0 initialised
+[INFO] [1792940294.104554191] [mavros.sys]: FCU: EKF3 IMU1 initialised
+[INFO] [1792940294.109008554] [mavros.sys]: FCU: AHRS: EKF3 active
+[INFO] [1792940295.613860773] [mavros.sys]: FCU: EKF3 IMU0 tilt alignment complete
+[INFO] [1792940295.614023602] [mavros.sys]: FCU: EKF3 IMU1 tilt alignment complete
+[INFO] [1792940295.718850379] [mavros.sys]: FCU: EKF3 IMU0 MAG0 initial yaw alignment complete
+[INFO] [1792940295.719061987] [mavros.sys]: FCU: EKF3 IMU1 MAG0 initial yaw alignment complete
+[INFO] [1792940300.201170290] [mavros.sys]: FCU: GPS 1: detected as u-blox at 230400 baud
+[ERROR] [1792940302.549417216] [mavros.sys]: FCU: Arm: Accels inconsistent
+[ERROR] [1792940302.550733937] [mavros.sys]: FCU: Arm: AHRS: waiting for home
+[WARN] [1792940302.555463761] [mavros.cmd]: CMD: Unexpected command 400, result 4
+[ERROR] [1792940302.560528540] [mavros.sys]: FCU: Arm: Accels inconsistent
+[ERROR] [1792940302.560766307] [mavros.sys]: FCU: Arm: AHRS: waiting for home
+[ERROR] [1792940309.841432092] [mavros.sys]: FCU: Arm: Gyros inconsistent
+[ERROR] [1792940309.842525763] [mavros.sys]: FCU: Arm: AHRS: waiting for home
+[ERROR] [1792940309.844736408] [mavros.sys]: FCU: Arm: Gyros inconsistent
+[ERROR] [1792940309.844989303] [mavros.sys]: FCU: Arm: AHRS: waiting for home
+[INFO] [1792940312.471022068] [mavros.sys]: FCU: EKF3 IMU1 origin set
+[INFO] [1792940312.547134269] [mavros.sys]: FCU: Field Elevation Set: 584m
+[INFO] [1792940312.691813284] [mavros.sys]: FCU: EKF3 IMU0 origin set
+[ERROR] [1792940325.430361443] [mavros.sys]: FCU: PreArm: Need Position Estimate
+[INFO] [1792940337.332243511] [mavros.sys]: FCU: EKF3 IMU1 is using GPS
+[INFO] [1792940337.335327340] [mavros.sys]: FCU: EKF3 IMU0 is using GPS

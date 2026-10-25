@@ -14,6 +14,7 @@ from rcl_interfaces.srv import GetParameters
 PARAMS = {
     "FLTMODE_CH": 5,
     "RC5_OPTION": 0,
+    "RC7_OPTION": 31,
     "FLTMODE1": 4,
     **{f"FLTMODE{i}": 2 for i in range(2, 7)},
 }
@@ -93,7 +94,7 @@ try:
     if len(previous) != len(PARAMS):
         raise RuntimeError("Incomplete parameter response")
 
-    backup = Path(__file__).with_name("sim_modes.before.json")
+    backup = Path(__file__).with_name("sim_motor_stop.before.json")
     if not backup.exists():
         backup.write_text(json.dumps(previous, indent=2) + "\n")
 
@@ -112,7 +113,7 @@ try:
             )
         print(f"Confirmed {name} = {value}", flush=True)
 
-    print("Ready: RC CH5 low = GUIDED; other positions = ALT_HOLD.")
+    print("Ready: CH5 modes configured; RC7 motor stop: 1000=released, 2000=STOP.")
 finally:
     node.destroy_node()
     rclpy.try_shutdown()
